@@ -1,0 +1,4822 @@
+{
+ "VH_F_subcutaneous_abdominal_adipose_tissue_umbilicus_area": {
+  "name": "subcutaneous abdominal adipose tissue umbilicus area",
+  "system": "integumentary",
+  "conceptId": "HRA:VH_F_subcutaneous_abdominal_adipose_tissue_umbilicus_area"
+ },
+ "VH_F_subcutaneous_abdominal_adipose_tissue_RUQ_area": {
+  "name": "subcutaneous abdominal adipose tissue RUQ area",
+  "system": "integumentary",
+  "conceptId": "HRA:VH_F_subcutaneous_abdominal_adipose_tissue_RUQ_area"
+ },
+ "VH_F_subcutaneous_abdominal_adipose_tissue_LUQ_area": {
+  "name": "subcutaneous abdominal adipose tissue LUQ area",
+  "system": "integumentary",
+  "conceptId": "HRA:VH_F_subcutaneous_abdominal_adipose_tissue_LUQ_area"
+ },
+ "VH_F_skin": {
+  "name": "skin of body",
+  "system": "integumentary",
+  "conceptId": "UBERON:0002097"
+ },
+ "VH_F_fat_L": {
+  "name": "Interlobar adipose tissue of left mammary gland",
+  "system": "integumentary",
+  "conceptId": "FMA:73166"
+ },
+ "VH_F_areolar_tubercles_L": {
+  "name": "areolar tubercle",
+  "system": "integumentary",
+  "conceptId": "UBERON:0011828"
+ },
+ "VH_F_nipple_L": {
+  "name": "left nipple",
+  "system": "integumentary",
+  "conceptId": "UBERON:0013772"
+ },
+ "VH_F_areola_L": {
+  "name": "Left female areola",
+  "system": "integumentary",
+  "conceptId": "FMA:223679"
+ },
+ "VH_F_mammary_lobes_L": {
+  "name": "mammary lobe",
+  "system": "integumentary",
+  "conceptId": "UBERON:0018140"
+ },
+ "VH_F_main_lactiferous_ducts_L": {
+  "name": "main lactiferous duct",
+  "system": "integumentary",
+  "conceptId": "UBERON:0015134"
+ },
+ "VH_F_main_lactiferous_sinuses_L": {
+  "name": "Lactiferous sinus",
+  "system": "integumentary",
+  "conceptId": "FMA:58088"
+ },
+ "VH_F_suspensory_ligaments_L": {
+  "name": "Suspensory ligament of left breast",
+  "system": "integumentary",
+  "conceptId": "FMA:73119"
+ },
+ "VH_F_fat_R": {
+  "name": "Interlobar adipose tissue of right mammary gland",
+  "system": "integumentary",
+  "conceptId": "FMA:73165"
+ },
+ "VH_F_areolar_tubercles_R": {
+  "name": "areolar tubercle",
+  "system": "integumentary",
+  "conceptId": "UBERON:0011828"
+ },
+ "VH_F_nipple_R": {
+  "name": "right nipple",
+  "system": "integumentary",
+  "conceptId": "UBERON:0013773"
+ },
+ "VH_F_areola_R": {
+  "name": "Right female areola",
+  "system": "integumentary",
+  "conceptId": "FMA:223677"
+ },
+ "VH_F_main_lactiferous_sinuses_R": {
+  "name": "Lactiferous sinus",
+  "system": "integumentary",
+  "conceptId": "FMA:58088"
+ },
+ "VH_F_main_lactiferous_ducts_R": {
+  "name": "main lactiferous duct",
+  "system": "integumentary",
+  "conceptId": "UBERON:0015134"
+ },
+ "VH_F_mammary_lobes_R": {
+  "name": "mammary lobe",
+  "system": "integumentary",
+  "conceptId": "UBERON:0018140"
+ },
+ "VH_F_suspensory_ligaments_R": {
+  "name": "Suspensory ligament of right breast",
+  "system": "integumentary",
+  "conceptId": "FMA:73118"
+ },
+ "VH_F_retina_R": {
+  "name": "Right retina",
+  "system": "sensory",
+  "conceptId": "FMA:58302"
+ },
+ "VH_F_fovea_R": {
+  "name": "Right fovea centralis",
+  "system": "sensory",
+  "conceptId": "FMA:58661"
+ },
+ "VH_F_macula_lutea_R": {
+  "name": "Right macula lutea",
+  "system": "sensory",
+  "conceptId": "FMA:58638"
+ },
+ "VH_F_optic_disc_R": {
+  "name": "Right optic disc",
+  "system": "sensory",
+  "conceptId": "FMA:58635"
+ },
+ "VH_F_palpebral_conjunctiva_of_right_upper_eyelid": {
+  "name": "Palpebral conjunctiva of right upper eyelid",
+  "system": "sensory",
+  "conceptId": "FMA:223076"
+ },
+ "VH_F_palpebral_conjunctiva_of_right_lower_eyelid": {
+  "name": "Palpebral conjunctiva of right lower eyelid",
+  "system": "sensory",
+  "conceptId": "FMA:223074"
+ },
+ "VH_F_sclera_R": {
+  "name": "Right sclera",
+  "system": "sensory",
+  "conceptId": "FMA:58271"
+ },
+ "VH_F_optic_choroid_R": {
+  "name": "Right choroid",
+  "system": "sensory",
+  "conceptId": "FMA:58299"
+ },
+ "VH_F_pupil_R": {
+  "name": "right pupil",
+  "system": "sensory",
+  "conceptId": "UBERON:0010224"
+ },
+ "VH_F_ciliary_processes_R": {
+  "name": "ciliary processes",
+  "system": "sensory",
+  "conceptId": "UBERON:0010427"
+ },
+ "VH_F_suspensory_ligament_of_lens_R": {
+  "name": "Suspensory ligament of right lens",
+  "system": "sensory",
+  "conceptId": "FMA:58839"
+ },
+ "VH_F_ora_serrata_of_retina_R": {
+  "name": "Right ora serrata",
+  "system": "sensory",
+  "conceptId": "FMA:58601"
+ },
+ "VH_F_corneo_scleral_junction_R": {
+  "name": "Right corneoscleral junction",
+  "system": "sensory",
+  "conceptId": "FMA:58343"
+ },
+ "VH_F_lens_R": {
+  "name": "Right lens",
+  "system": "sensory",
+  "conceptId": "FMA:58242"
+ },
+ "VH_F_schlemms_canal_R": {
+  "name": "Right scleral venous sinus",
+  "system": "sensory",
+  "conceptId": "FMA:51874"
+ },
+ "VH_F_aqueous_humor_R": {
+  "name": "Aqueous humor of right eyeball",
+  "system": "sensory",
+  "conceptId": "FMA:58820"
+ },
+ "VH_F_ciliary_body_R": {
+  "name": "Right ciliary body",
+  "system": "sensory",
+  "conceptId": "FMA:58296"
+ },
+ "VH_F_ciliary_muscle_R": {
+  "name": "Right ciliary muscle",
+  "system": "sensory",
+  "conceptId": "FMA:49152"
+ },
+ "VH_F_trabecular_meshwork_R": {
+  "name": "eye trabecular meshwork",
+  "system": "sensory",
+  "conceptId": "UBERON:0005969"
+ },
+ "VH_F_iris_R": {
+  "name": "Right iris",
+  "system": "sensory",
+  "conceptId": "FMA:58236"
+ },
+ "VH_F_bulbar_conjunctiva_R": {
+  "name": "Right bulbar conjunctiva",
+  "system": "sensory",
+  "conceptId": "FMA:59028"
+ },
+ "VH_F_cornea_R": {
+  "name": "Right cornea",
+  "system": "sensory",
+  "conceptId": "FMA:58239"
+ },
+ "VH_F_vitreous_humor_R": {
+  "name": "Humor of right vitreous body",
+  "system": "sensory",
+  "conceptId": "FMA:261236"
+ },
+ "VH_F_retina_L": {
+  "name": "Left retina",
+  "system": "sensory",
+  "conceptId": "FMA:58303"
+ },
+ "VH_F_fovea_L": {
+  "name": "Left fovea centralis",
+  "system": "sensory",
+  "conceptId": "FMA:58663"
+ },
+ "VH_F_macula_lutea_L": {
+  "name": "Left macula lutea",
+  "system": "sensory",
+  "conceptId": "FMA:58639"
+ },
+ "VH_F_optic_disc_L": {
+  "name": "Left optic disc",
+  "system": "sensory",
+  "conceptId": "FMA:58636"
+ },
+ "VH_F_palpebral_conjunctiva_of_left_upper_eyelid": {
+  "name": "Palpebral conjunctiva of left upper eyelid",
+  "system": "sensory",
+  "conceptId": "FMA:223078"
+ },
+ "VH_F_palpebral_conjunctiva_of_left_lower_eyelid": {
+  "name": "Palpebral conjunctiva of left lower eyelid",
+  "system": "sensory",
+  "conceptId": "FMA:223075"
+ },
+ "VH_F_vitreous_humor_L": {
+  "name": "Humor of left vitreous body",
+  "system": "sensory",
+  "conceptId": "FMA:261238"
+ },
+ "VH_F_cornea_L": {
+  "name": "Left cornea",
+  "system": "sensory",
+  "conceptId": "FMA:58240"
+ },
+ "VH_F_bulbar_conjunctiva_L": {
+  "name": "Left bulbar conjunctiva",
+  "system": "sensory",
+  "conceptId": "FMA:59029"
+ },
+ "VH_F_iris_L": {
+  "name": "Left iris",
+  "system": "sensory",
+  "conceptId": "FMA:58237"
+ },
+ "VH_F_trabecular_meshwork_L": {
+  "name": "eye trabecular meshwork",
+  "system": "sensory",
+  "conceptId": "UBERON:0005969"
+ },
+ "VH_F_ciliary_body_L": {
+  "name": "Left ciliary body",
+  "system": "sensory",
+  "conceptId": "FMA:58297"
+ },
+ "VH_F_ciliary_muscle_L": {
+  "name": "Left ciliary muscle",
+  "system": "sensory",
+  "conceptId": "FMA:49153"
+ },
+ "VH_F_aqueous_humor_L": {
+  "name": "Aqueous humor of left eyeball",
+  "system": "sensory",
+  "conceptId": "FMA:58821"
+ },
+ "VH_F_schlemms_canal_L": {
+  "name": "Left scleral venous sinus",
+  "system": "sensory",
+  "conceptId": "FMA:51875"
+ },
+ "VH_F_lens_L": {
+  "name": "Left lens",
+  "system": "sensory",
+  "conceptId": "FMA:58243"
+ },
+ "VH_F_corneo_scleral_junction_L": {
+  "name": "Left corneoscleral junction",
+  "system": "sensory",
+  "conceptId": "FMA:58344"
+ },
+ "VH_F_ora_serrata_of_retina_L": {
+  "name": "Left ora serrata",
+  "system": "sensory",
+  "conceptId": "FMA:58602"
+ },
+ "VH_F_suspensory_ligament_of_lens_L": {
+  "name": "Suspensory ligament of left lens",
+  "system": "sensory",
+  "conceptId": "FMA:58840"
+ },
+ "VH_F_ciliary_processes_L": {
+  "name": "ciliary processes",
+  "system": "sensory",
+  "conceptId": "UBERON:0010427"
+ },
+ "VH_F_pupil_L": {
+  "name": "left pupil",
+  "system": "sensory",
+  "conceptId": "UBERON:0010223"
+ },
+ "VH_F_optic_choroid_L": {
+  "name": "Left choroid",
+  "system": "sensory",
+  "conceptId": "FMA:58300"
+ },
+ "VH_F_sclera_L": {
+  "name": "Left sclera",
+  "system": "sensory",
+  "conceptId": "FMA:58272"
+ },
+ "VH_F_dura_mater_right": {
+  "name": "dura mater",
+  "system": "sensory",
+  "conceptId": "UBERON:0002363"
+ },
+ "VH_F_right_optic_nerve": {
+  "name": "Right optic nerve",
+  "system": "sensory",
+  "conceptId": "FMA:50875"
+ },
+ "VH_F_dura_mater_left": {
+  "name": "dura mater",
+  "system": "sensory",
+  "conceptId": "UBERON:0002363"
+ },
+ "VH_F_left_optic_nerve": {
+  "name": "Left optic nerve",
+  "system": "sensory",
+  "conceptId": "FMA:50878"
+ },
+ "VH_F_optic_chiasm": {
+  "name": "optic chiasma",
+  "system": "sensory",
+  "conceptId": "UBERON:0000959"
+ },
+ "Allen_olfactory_bulb_L": {
+  "name": "olfactory bulb",
+  "system": "nervous",
+  "conceptId": "UBERON:0002264"
+ },
+ "Allen_anterior_olfactory_nucleus_L": {
+  "name": "anterior olfactory nucleus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002266"
+ },
+ "Allen_piriform_region_L": {
+  "name": "piriform cortex",
+  "system": "nervous",
+  "conceptId": "UBERON:0004725"
+ },
+ "Allen_frontal_agranular_insular_cortex_area_Fl_L": {
+  "name": "frontal agranular insular cortex area Fl (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_frontal_agranular_insular_cortex_area_Fl_L"
+ },
+ "Allen_temporal_agranular_insular_cortex_area_Tl_L": {
+  "name": "temporal agranular insular cortex area Tl (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_temporal_agranular_insular_cortex_area_Tl_L"
+ },
+ "Allen_head_of_caudate_L": {
+  "name": "head of caudate (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_head_of_caudate_L"
+ },
+ "Allen_body_of_caudate_L": {
+  "name": "body of caudate (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_body_of_caudate_L"
+ },
+ "Allen_tail_of_caudate_L": {
+  "name": "tail of caudate (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tail_of_caudate_L"
+ },
+ "Allen_putamen_L": {
+  "name": "left putamen",
+  "system": "nervous",
+  "conceptId": "UBERON:0008884"
+ },
+ "Allen_nucleus_accumbens_L": {
+  "name": "nucleus accumbens (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_nucleus_accumbens_L"
+ },
+ "Allen_external_segment_of_globus_pallidus_L": {
+  "name": "external segment of globus pallidus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_external_segment_of_globus_pallidus_L"
+ },
+ "Allen_internal_segment_of_globus_pallidus_L": {
+  "name": "internal segment of globus pallidus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_internal_segment_of_globus_pallidus_L"
+ },
+ "Allen_claustrum_L": {
+  "name": "claustrum (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_claustrum_L"
+ },
+ "Allen_basal_forebrain_L": {
+  "name": "basal forebrain (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_basal_forebrain_L"
+ },
+ "Allen_septal_nuclei_L": {
+  "name": "septal nuclei (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_septal_nuclei_L"
+ },
+ "Allen_amygdaloid_complex_L": {
+  "name": "amygdaloid complex (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_amygdaloid_complex_L"
+ },
+ "Allen_anterior_amygdaloid_area_L": {
+  "name": "anterior amygdaloid area (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_amygdaloid_area_L"
+ },
+ "Allen_central_nuclear_group_L": {
+  "name": "central nuclear group (left)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_central_nuclear_group_L"
+ },
+ "Allen_lateral_nucleus_L": {
+  "name": "lateral nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_nucleus_L"
+ },
+ "Allen_basolateral_nucleus_basal_nucleus_L": {
+  "name": "basolateral nucleus basal nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_basolateral_nucleus_basal_nucleus_L"
+ },
+ "Allen_basomedial_nucleus_accessory_basal_nucleus_L": {
+  "name": "basomedial nucleus accessory basal nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_basomedial_nucleus_accessory_basal_nucleus_L"
+ },
+ "Allen_anterior_cortical_nucleus_L": {
+  "name": "anterior cortical nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_cortical_nucleus_L"
+ },
+ "Allen_posterior_cortical_nucleus_L": {
+  "name": "posterior cortical nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_posterior_cortical_nucleus_L"
+ },
+ "Allen_medial_nucleus_L": {
+  "name": "medial nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_medial_nucleus_L"
+ },
+ "Allen_amygdalohippocampal_area_L": {
+  "name": "amygdalohippocampal area (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_amygdalohippocampal_area_L"
+ },
+ "Allen_bed_nucleus_of_stria_terminalis_L": {
+  "name": "bed nucleus of stria terminalis (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_bed_nucleus_of_stria_terminalis_L"
+ },
+ "Allen_thalamus_L": {
+  "name": "thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_thalamus_L"
+ },
+ "Allen_anterior_nuclear_complex_of_thalamus_L": {
+  "name": "anterior nuclear complex of thalamus (left)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_anterior_nuclear_complex_of_thalamus_L"
+ },
+ "Allen_lateral_dorsal_nucleus_of_thalamus_L": {
+  "name": "lateral dorsal nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_dorsal_nucleus_of_thalamus_L"
+ },
+ "Allen_mediodorsal_nucleus_of_thalamus_L": {
+  "name": "mediodorsal nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_mediodorsal_nucleus_of_thalamus_L"
+ },
+ "Allen_reuniens_nucleus_medioventral_nucleus_of_thalamus_L": {
+  "name": "reuniens nucleus medioventral nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_reuniens_nucleus_medioventral_nucleus_of_thalamus_L"
+ },
+ "Allen_lateral_posterior_nucleus_of_thalamus_L": {
+  "name": "lateral posterior nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_posterior_nucleus_of_thalamus_L"
+ },
+ "Allen_pulvinar_of_thalamus_L": {
+  "name": "pulvinar of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_pulvinar_of_thalamus_L"
+ },
+ "Allen_ventral_anterior_nucleus_of_thalamus_L": {
+  "name": "ventral anterior nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_anterior_nucleus_of_thalamus_L"
+ },
+ "Allen_ventral_lateral_nucleus_of_thalamus_L": {
+  "name": "ventral lateral nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_lateral_nucleus_of_thalamus_L"
+ },
+ "Allen_ventral_posterior_lateral_nucleus_L": {
+  "name": "ventral posterior lateral nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_posterior_lateral_nucleus_L"
+ },
+ "Allen_ventral_posterior_medial_nucleus_L": {
+  "name": "ventral posterior medial nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_posterior_medial_nucleus_L"
+ },
+ "Allen_dorsal_lateral_geniculate_nucleus_L": {
+  "name": "dorsal lateral geniculate nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_dorsal_lateral_geniculate_nucleus_L"
+ },
+ "Allen_medial_geniculate_nuclei_L": {
+  "name": "medial geniculate nuclei (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_medial_geniculate_nuclei_L"
+ },
+ "Allen_centromedian_nucleus_of_thalamus_L": {
+  "name": "centromedian nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_centromedian_nucleus_of_thalamus_L"
+ },
+ "Allen_parafascicular_nucleus_of_thalamus_L": {
+  "name": "parafascicular nucleus of thalamus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_parafascicular_nucleus_of_thalamus_L"
+ },
+ "Allen_habenular_nuclei_L": {
+  "name": "habenular nuclei (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_habenular_nuclei_L"
+ },
+ "Allen_pineal_body_L": {
+  "name": "pineal body",
+  "system": "nervous",
+  "conceptId": "UBERON:0001905"
+ },
+ "Allen_zona_incerta_L": {
+  "name": "zona incerta (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_zona_incerta_L"
+ },
+ "Allen_supraoptic_region_of_HTH_L": {
+  "name": "supraoptic region of HTH (left)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_supraoptic_region_of_HTH_L"
+ },
+ "Allen_preoptic_region_of_HTH_L": {
+  "name": "preoptic region of HTH (left)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_preoptic_region_of_HTH_L"
+ },
+ "Allen_tuberal_region_of_HTH_L": {
+  "name": "tuberal region of HTH (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tuberal_region_of_HTH_L"
+ },
+ "Allen_white_matter_of_forebrain_L": {
+  "name": "white matter of forebrain (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_white_matter_of_forebrain_L"
+ },
+ "Allen_anterior_commissure_L": {
+  "name": "anterior commissure",
+  "system": "nervous",
+  "conceptId": "UBERON:0000935"
+ },
+ "Allen_corpus_callosum_L": {
+  "name": "corpus callosum",
+  "system": "nervous",
+  "conceptId": "UBERON:0002336"
+ },
+ "Allen_fornix_L": {
+  "name": "fornix of brain",
+  "system": "nervous",
+  "conceptId": "UBERON:0000052"
+ },
+ "Allen_mammillothalamic_tract_L": {
+  "name": "mammillothalamic tract (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_mammillothalamic_tract_L"
+ },
+ "Allen_optic_tract_L": {
+  "name": "optic tract",
+  "system": "sensory",
+  "conceptId": "UBERON:0001908"
+ },
+ "Allen_anterior_horn_of_lateral_ventricle_L": {
+  "name": "anterior horn of lateral ventricle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_horn_of_lateral_ventricle_L"
+ },
+ "Allen_body_of_lateral_ventricle_L": {
+  "name": "body of lateral ventricle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_body_of_lateral_ventricle_L"
+ },
+ "Allen_posterior_horn_of_lateral_ventricle_L": {
+  "name": "posterior horn of lateral ventricle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_posterior_horn_of_lateral_ventricle_L"
+ },
+ "Allen_inferior_horn_of_lateral_ventricle_L": {
+  "name": "inferior horn of lateral ventricle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_inferior_horn_of_lateral_ventricle_L"
+ },
+ "Allen_third_ventricle_L": {
+  "name": "third ventricle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_third_ventricle_L"
+ },
+ "Allen_cerebellar_vermis_L": {
+  "name": "cerebellar vermis",
+  "system": "nervous",
+  "conceptId": "UBERON:0004720"
+ },
+ "Allen_cerebellar_deep_nuclei_L": {
+  "name": "cerebellar deep nuclei (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_cerebellar_deep_nuclei_L"
+ },
+ "Allen_white_matter_of_hindbrain_L": {
+  "name": "white matter of hindbrain (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_white_matter_of_hindbrain_L"
+ },
+ "Allen_olfactory_tract_L": {
+  "name": "olfactory tract (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_olfactory_tract_L"
+ },
+ "Allen_primary_motor_cortex_L": {
+  "name": "primary motor cortex (left)",
+  "system": "nervous",
+  "conceptId": "UBERON:0002703"
+ },
+ "Allen_superior_frontal_gyrus_L": {
+  "name": "superior frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002661"
+ },
+ "Allen_middle_frontal_gyrus_L": {
+  "name": "middle frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002702"
+ },
+ "Allen_inferior_frontal_gyrus_triangular_part_L": {
+  "name": "triangular part of inferior frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002629"
+ },
+ "Allen_inferior_frontal_gyrus_opercular_part_L": {
+  "name": "opercular part of inferior frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002980"
+ },
+ "Allen_gyrus_rectus_straight_gyrus_L": {
+  "name": "gyrus rectus",
+  "system": "nervous",
+  "conceptId": "UBERON:0004671"
+ },
+ "Allen_medial_orbital_gyrus_L": {
+  "name": "medial orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002570"
+ },
+ "Allen_anterior_intermediate_orbital_gyrus_L": {
+  "name": "intermediate orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002644"
+ },
+ "Allen_posterior_intermediate_orbital_gyrus_L": {
+  "name": "intermediate orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002644"
+ },
+ "Allen_lateral_orbital_gyrus_L": {
+  "name": "lateral orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002564"
+ },
+ "Allen_paracentral_lobule_rostral_part_L": {
+  "name": "anterior segment of paracentral lobule",
+  "system": "nervous",
+  "conceptId": "UBERON:0035932"
+ },
+ "Allen_frontal_operculum_L": {
+  "name": "frontal operculum",
+  "system": "nervous",
+  "conceptId": "UBERON:0002947"
+ },
+ "Allen_postcentral_gyrus_L": {
+  "name": "postcentral gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002581"
+ },
+ "Allen_supraparietal_lobule_L": {
+  "name": "supraparietal lobule (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_supraparietal_lobule_L"
+ },
+ "Allen_supramarginal_gyrus_L": {
+  "name": "supramarginal gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_supramarginal_gyrus_L"
+ },
+ "Allen_angular_gyrus_L": {
+  "name": "angular gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_angular_gyrus_L"
+ },
+ "Allen_precuneus_L": {
+  "name": "precuneus cortex",
+  "system": "nervous",
+  "conceptId": "UBERON:0006093"
+ },
+ "Allen_paracentral_lobule_caudal_part_L": {
+  "name": "paracentral lobule caudal part (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_paracentral_lobule_caudal_part_L"
+ },
+ "Allen_superior_temporal_gyrus_L": {
+  "name": "superior temporal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002769"
+ },
+ "Allen_middle_temporal_gyrus_L": {
+  "name": "middle temporal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002771"
+ },
+ "Allen_inferior_temporal_gyrus_L": {
+  "name": "inferior temporal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002751"
+ },
+ "Allen_occipitotemporal_fusiform_gyrus_temporal_part_L": {
+  "name": "occipitotemporal fusiform gyrus temporal part (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_occipitotemporal_fusiform_gyrus_temporal_part_L"
+ },
+ "Allen_transverse_temporal_gyrus_Heschls_gyrus_L": {
+  "name": "transverse temporal gyrus Heschls gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_transverse_temporal_gyrus_Heschls_gyrus_L"
+ },
+ "Allen_planum_temporale_L": {
+  "name": "planum temporale",
+  "system": "nervous",
+  "conceptId": "UBERON:0022268"
+ },
+ "Allen_temporal_pole_L": {
+  "name": "temporal pole",
+  "system": "nervous",
+  "conceptId": "UBERON:0002576"
+ },
+ "Allen_planum_polare_L": {
+  "name": "planum polare",
+  "system": "nervous",
+  "conceptId": "UBERON:0023861"
+ },
+ "Allen_occipital_pole_L": {
+  "name": "occipital pole",
+  "system": "nervous",
+  "conceptId": "UBERON:0002902"
+ },
+ "Allen_cuneus_L": {
+  "name": "cuneus cortex",
+  "system": "nervous",
+  "conceptId": "UBERON:0006092"
+ },
+ "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L": {
+  "name": "lingual gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002943"
+ },
+ "Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_L": {
+  "name": "occipital fusiform gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0022364"
+ },
+ "Allen_inferior_occipital_gyrus_L": {
+  "name": "inferior occipital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0014608"
+ },
+ "Allen_superior_occipital_gyrus_L": {
+  "name": "superior occipital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002948"
+ },
+ "Allen_cingulate_gyrus_rostral_anterior_part_L": {
+  "name": "anterior cingulate gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002756"
+ },
+ "Allen_cingulate_gyrus_caudal_posterior_part_L": {
+  "name": "posterior cingulate gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002740"
+ },
+ "Allen_ingulo_parahippocampal_isthmus_L": {
+  "name": "isthmus of cingulate gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002738"
+ },
+ "Allen_subcallosal_gyrus_parolfactory_gyrus_L": {
+  "name": "subcallosal area",
+  "system": "nervous",
+  "conceptId": "UBERON:0003020"
+ },
+ "Allen_anterior_parahippocampal_gyrus_L": {
+  "name": "anterior parahippocampal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0022383"
+ },
+ "Allen_posterior_parahippocampal_gyrus_L": {
+  "name": "posterior parahippocampal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002657"
+ },
+ "Allen_gyrus_ambiens_L": {
+  "name": "gyrus ambiens (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_gyrus_ambiens_L"
+ },
+ "Allen_long_insular_gyri_L": {
+  "name": "long insular gyri (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_long_insular_gyri_L"
+ },
+ "Allen_short_insular_gyri_L": {
+  "name": "short insular gyri (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_short_insular_gyri_L"
+ },
+ "Allen_limen_insula_L": {
+  "name": "limen insula (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_limen_insula_L"
+ },
+ "Allen_pretectal_region_L": {
+  "name": "pretectal region (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_pretectal_region_L"
+ },
+ "Allen_substantia_nigra_L": {
+  "name": "substantia nigra",
+  "system": "nervous",
+  "conceptId": "UBERON:0002038"
+ },
+ "Allen_superior_colliculus_L": {
+  "name": "superior colliculus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001945"
+ },
+ "Allen_cerebral_peduncle_crus_cerebri_L": {
+  "name": "cerebral peduncle",
+  "system": "nervous",
+  "conceptId": "UBERON:0002623"
+ },
+ "Allen_superior_cerebellar_peduncle_brachium_conjunctivum_L": {
+  "name": "superior cerebellar peduncle brachium conjunctivum (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_superior_cerebellar_peduncle_brachium_conjunctivum_L"
+ },
+ "Allen_cerebral_aqueduct_L": {
+  "name": "cerebral aqueduct (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_cerebral_aqueduct_L"
+ },
+ "Allen_paravermis_of_cerebellum_L": {
+  "name": "paravermis of cerebellum (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_paravermis_of_cerebellum_L"
+ },
+ "Allen_lateral_hemisphere_of_cerebellum_L": {
+  "name": "lateral hemisphere of cerebellum (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_hemisphere_of_cerebellum_L"
+ },
+ "Allen_basilar_part_of_pons_L": {
+  "name": "pontine nuclear group",
+  "system": "sensory",
+  "conceptId": "UBERON:0002151"
+ },
+ "Allen_pontine_tegmentum_L": {
+  "name": "pontine tegmentum",
+  "system": "nervous",
+  "conceptId": "UBERON:0003023"
+ },
+ "Allen_pyramidal_part_of_medulla_oblongata_L": {
+  "name": "pyramidal part of medulla oblongata (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_pyramidal_part_of_medulla_oblongata_L"
+ },
+ "Allen_tegmentum_of_medulla_oblongata_L": {
+  "name": "tegmentum of medulla oblongata (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tegmentum_of_medulla_oblongata_L"
+ },
+ "Allen_inferior_olive_L": {
+  "name": "inferior olive (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_inferior_olive_L"
+ },
+ "Allen_middle_cerebellar_peduncle_L": {
+  "name": "middle cerebellar peduncle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_middle_cerebellar_peduncle_L"
+ },
+ "Allen_fourth_ventricle_L": {
+  "name": "fourth ventricle",
+  "system": "nervous",
+  "conceptId": "UBERON:0002422"
+ },
+ "Allen_central_canal_of_medulla_oblongata_L": {
+  "name": "central canal of medulla oblongata (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_central_canal_of_medulla_oblongata_L"
+ },
+ "Allen_midline_nuclear_complex_L": {
+  "name": "midline nuclear complex (left)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_midline_nuclear_complex_L"
+ },
+ "Allen_lateral_olfactory_gyrus_L": {
+  "name": "lateral olfactory gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_olfactory_gyrus_L"
+ },
+ "Allen_parietal_operculum_L": {
+  "name": "parietal operculum",
+  "system": "nervous",
+  "conceptId": "UBERON:0002911"
+ },
+ "Allen_optic_radiation_L": {
+  "name": "optic radiation",
+  "system": "sensory",
+  "conceptId": "UBERON:0022264"
+ },
+ "Allen_posteroventral_putamen_L": {
+  "name": "posteroventral putamen (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_posteroventral_putamen_L"
+ },
+ "Allen_atrium_of_lateral_ventricle_L": {
+  "name": "atrium of lateral ventricle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_atrium_of_lateral_ventricle_L"
+ },
+ "Allen_paracingulate_gyrus_L": {
+  "name": "paracingulate gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_paracingulate_gyrus_L"
+ },
+ "Allen_rostral_gyrus_L": {
+  "name": "rostral gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_rostral_gyrus_L"
+ },
+ "Allen_frontomarginal_gyrus_L": {
+  "name": "frontomarginal gyrus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_frontomarginal_gyrus_L"
+ },
+ "Allen_frontal_pole_L": {
+  "name": "frontal pole (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_frontal_pole_L"
+ },
+ "Allen_inferior_cerebellar_peduncle_L": {
+  "name": "inferior cerebellar peduncle (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_inferior_cerebellar_peduncle_L"
+ },
+ "Allen_perirhinal_gyrus_rostral_part_of_FuGt_L": {
+  "name": "perirhinal gyrus rostral part of FuGt (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_perirhinal_gyrus_rostral_part_of_FuGt_L"
+ },
+ "Allen_head_of_hippocampus_L": {
+  "name": "head of hippocampus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_head_of_hippocampus_L"
+ },
+ "Allen_body_of_hippocampus_L": {
+  "name": "body of hippocampus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_body_of_hippocampus_L"
+ },
+ "Allen_tail_of_hippocampus_L": {
+  "name": "tail of hippocampus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tail_of_hippocampus_L"
+ },
+ "Allen_olfactory_bulb_R": {
+  "name": "olfactory bulb (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_olfactory_bulb_R"
+ },
+ "Allen_anterior_olfactory_nucleus_R": {
+  "name": "anterior olfactory nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_olfactory_nucleus_R"
+ },
+ "Allen_piriform_region_R": {
+  "name": "piriform region (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_piriform_region_R"
+ },
+ "Allen_frontal_agranular_insular_cortex_area_Fl_R": {
+  "name": "frontal agranular insular cortex area Fl (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_frontal_agranular_insular_cortex_area_Fl_R"
+ },
+ "Allen_temporal_agranular_insular_cortex_area_Tl_R": {
+  "name": "temporal agranular insular cortex area Tl (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_temporal_agranular_insular_cortex_area_Tl_R"
+ },
+ "Allen_head_of_caudate_R": {
+  "name": "head of caudate (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_head_of_caudate_R"
+ },
+ "Allen_body_of_caudate_R": {
+  "name": "body of caudate (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_body_of_caudate_R"
+ },
+ "Allen_tail_of_caudate_R": {
+  "name": "tail of caudate (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tail_of_caudate_R"
+ },
+ "Allen_putamen_R": {
+  "name": "right putamen",
+  "system": "nervous",
+  "conceptId": "UBERON:0008885"
+ },
+ "Allen_nucleus_accumbens_R": {
+  "name": "nucleus accumbens (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_nucleus_accumbens_R"
+ },
+ "Allen_external_segment_of_globus_pallidus_R": {
+  "name": "external segment of globus pallidus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_external_segment_of_globus_pallidus_R"
+ },
+ "Allen_internal_segment_of_globus_pallidus_R": {
+  "name": "internal segment of globus pallidus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_internal_segment_of_globus_pallidus_R"
+ },
+ "Allen_claustrum_R": {
+  "name": "claustrum (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_claustrum_R"
+ },
+ "Allen_basal_forebrain_R": {
+  "name": "basal forebrain (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_basal_forebrain_R"
+ },
+ "Allen_septal_nuclei_R": {
+  "name": "septal nuclei (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_septal_nuclei_R"
+ },
+ "Allen_amygdaloid_complex_R": {
+  "name": "amygdaloid complex (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_amygdaloid_complex_R"
+ },
+ "Allen_anterior_amygdaloid_area_R": {
+  "name": "anterior amygdaloid area (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_amygdaloid_area_R"
+ },
+ "Allen_central_nuclear_group_R": {
+  "name": "central nuclear group (right)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_central_nuclear_group_R"
+ },
+ "Allen_lateral_nucleus_R": {
+  "name": "lateral nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_nucleus_R"
+ },
+ "Allen_basolateral_nucleus_basal_nucleus_R": {
+  "name": "basolateral nucleus basal nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_basolateral_nucleus_basal_nucleus_R"
+ },
+ "Allen_basomedial_nucleus_accessory_basal_nucleus_R": {
+  "name": "basomedial nucleus accessory basal nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_basomedial_nucleus_accessory_basal_nucleus_R"
+ },
+ "Allen_anterior_cortical_nucleus_R": {
+  "name": "anterior cortical nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_cortical_nucleus_R"
+ },
+ "Allen_posterior_cortical_nucleus_R": {
+  "name": "posterior cortical nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_posterior_cortical_nucleus_R"
+ },
+ "Allen_medial_nucleus_R": {
+  "name": "medial nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_medial_nucleus_R"
+ },
+ "Allen_amygdalohippocampal_area_R": {
+  "name": "amygdalohippocampal area (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_amygdalohippocampal_area_R"
+ },
+ "Allen_bed_nucleus_of_stria_terminalis_R": {
+  "name": "bed nucleus of stria terminalis (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_bed_nucleus_of_stria_terminalis_R"
+ },
+ "Allen_thalamus_R": {
+  "name": "thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_thalamus_R"
+ },
+ "Allen_anterior_nuclear_complex_of_thalamus_R": {
+  "name": "anterior nuclear complex of thalamus (right)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_anterior_nuclear_complex_of_thalamus_R"
+ },
+ "Allen_lateral_dorsal_nucleus_of_thalamus_R": {
+  "name": "lateral dorsal nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_dorsal_nucleus_of_thalamus_R"
+ },
+ "Allen_mediodorsal_nucleus_of_thalamus_R": {
+  "name": "mediodorsal nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_mediodorsal_nucleus_of_thalamus_R"
+ },
+ "Allen_reuniens_nucleus_medioventral_nucleus_of_thalamus_R": {
+  "name": "reuniens nucleus medioventral nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_reuniens_nucleus_medioventral_nucleus_of_thalamus_R"
+ },
+ "Allen_lateral_posterior_nucleus_of_thalamus_R": {
+  "name": "lateral posterior nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_posterior_nucleus_of_thalamus_R"
+ },
+ "Allen_pulvinar_of_thalamus_R": {
+  "name": "pulvinar of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_pulvinar_of_thalamus_R"
+ },
+ "Allen_ventral_anterior_nucleus_of_thalamus_R": {
+  "name": "ventral anterior nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_anterior_nucleus_of_thalamus_R"
+ },
+ "Allen_ventral_lateral_nucleus_of_thalamus_R": {
+  "name": "ventral lateral nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_lateral_nucleus_of_thalamus_R"
+ },
+ "Allen_ventral_posterior_lateral_nucleus_R": {
+  "name": "ventral posterior lateral nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_posterior_lateral_nucleus_R"
+ },
+ "Allen_ventral_posterior_medial_nucleus_R": {
+  "name": "ventral posterior medial nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_ventral_posterior_medial_nucleus_R"
+ },
+ "Allen_dorsal_lateral_geniculate_nucleus_R": {
+  "name": "dorsal lateral geniculate nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_dorsal_lateral_geniculate_nucleus_R"
+ },
+ "Allen_medial_geniculate_nuclei_R": {
+  "name": "medial geniculate nuclei (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_medial_geniculate_nuclei_R"
+ },
+ "Allen_centromedian_nucleus_of_thalamus_R": {
+  "name": "centromedian nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_centromedian_nucleus_of_thalamus_R"
+ },
+ "Allen_parafascicular_nucleus_of_thalamus_R": {
+  "name": "parafascicular nucleus of thalamus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_parafascicular_nucleus_of_thalamus_R"
+ },
+ "Allen_habenular_nuclei_R": {
+  "name": "habenular nuclei (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_habenular_nuclei_R"
+ },
+ "Allen_pineal_body_R": {
+  "name": "pineal body",
+  "system": "nervous",
+  "conceptId": "UBERON:0001905"
+ },
+ "Allen_zona_incerta_R": {
+  "name": "zona incerta (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_zona_incerta_R"
+ },
+ "Allen_supraoptic_region_of_HTH_R": {
+  "name": "supraoptic region of HTH (right)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_supraoptic_region_of_HTH_R"
+ },
+ "Allen_white_matter_of_forebrain_R": {
+  "name": "white matter of forebrain (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_white_matter_of_forebrain_R"
+ },
+ "Allen_anterior_commissure_R": {
+  "name": "anterior commissure",
+  "system": "nervous",
+  "conceptId": "UBERON:0000935"
+ },
+ "Allen_corpus_callosum_R": {
+  "name": "corpus callosum",
+  "system": "nervous",
+  "conceptId": "UBERON:0002336"
+ },
+ "Allen_fornix_R": {
+  "name": "fornix of brain",
+  "system": "nervous",
+  "conceptId": "UBERON:0000052"
+ },
+ "Allen_mammillothalamic_tract_R": {
+  "name": "mammillothalamic tract (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_mammillothalamic_tract_R"
+ },
+ "Allen_optic_tract_R": {
+  "name": "optic tract",
+  "system": "sensory",
+  "conceptId": "UBERON:0001908"
+ },
+ "Allen_anterior_horn_of_lateral_ventricle_R": {
+  "name": "anterior horn of lateral ventricle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_anterior_horn_of_lateral_ventricle_R"
+ },
+ "Allen_body_of_lateral_ventricle_R": {
+  "name": "body of lateral ventricle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_body_of_lateral_ventricle_R"
+ },
+ "Allen_posterior_horn_of_lateral_ventricle_R": {
+  "name": "posterior horn of lateral ventricle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_posterior_horn_of_lateral_ventricle_R"
+ },
+ "Allen_inferior_horn_of_lateral_ventricle_R": {
+  "name": "inferior horn of lateral ventricle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_inferior_horn_of_lateral_ventricle_R"
+ },
+ "Allen_third_ventricle_R": {
+  "name": "third ventricle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_third_ventricle_R"
+ },
+ "Allen_cerebellar_vermis_R": {
+  "name": "cerebellar vermis (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_cerebellar_vermis_R"
+ },
+ "Allen_cerebellar_deep_nuclei_R": {
+  "name": "cerebellar deep nuclei (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_cerebellar_deep_nuclei_R"
+ },
+ "Allen_white_matter_of_hindbrain_R": {
+  "name": "white matter of hindbrain (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_white_matter_of_hindbrain_R"
+ },
+ "Allen_olfactory_tract_R": {
+  "name": "olfactory tract (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_olfactory_tract_R"
+ },
+ "Allen_primary_motor_cortex_R": {
+  "name": "primary motor cortex (right)",
+  "system": "nervous",
+  "conceptId": "UBERON:0002703"
+ },
+ "Allen_superior_frontal_gyrus_R": {
+  "name": "superior frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002661"
+ },
+ "Allen_middle_frontal_gyrus_R": {
+  "name": "middle frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002702"
+ },
+ "Allen_inferior_frontal_gyrus_triangular_part_R": {
+  "name": "triangular part of inferior frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002629"
+ },
+ "Allen_inferior_frontal_gyrus_opercular_part_R": {
+  "name": "opercular part of inferior frontal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002980"
+ },
+ "Allen_gyrus_rectus_straight_gyrus_R": {
+  "name": "gyrus rectus",
+  "system": "nervous",
+  "conceptId": "UBERON:0004671"
+ },
+ "Allen_medial_orbital_gyrus_R": {
+  "name": "medial orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002570"
+ },
+ "Allen_anterior_intermediate_orbital_gyrus_R": {
+  "name": "intermediate orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002644"
+ },
+ "Allen_posterior_intermediate_orbital_gyrus_R": {
+  "name": "intermediate orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002644"
+ },
+ "Allen_lateral_orbital_gyrus_R": {
+  "name": "lateral orbital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002564"
+ },
+ "Allen_paracentral_lobule_rostral_part_R": {
+  "name": "anterior segment of paracentral lobule",
+  "system": "nervous",
+  "conceptId": "UBERON:0035932"
+ },
+ "Allen_frontal_operculum_R": {
+  "name": "frontal operculum",
+  "system": "nervous",
+  "conceptId": "UBERON:0002947"
+ },
+ "Allen_postcentral_gyrus_R": {
+  "name": "postcentral gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002581"
+ },
+ "Allen_supraparietal_lobule_R": {
+  "name": "supraparietal lobule (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_supraparietal_lobule_R"
+ },
+ "Allen_supramarginal_gyrus_R": {
+  "name": "supramarginal gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_supramarginal_gyrus_R"
+ },
+ "Allen_angular_gyrus_R": {
+  "name": "angular gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_angular_gyrus_R"
+ },
+ "Allen_precuneus_R": {
+  "name": "precuneus cortex",
+  "system": "nervous",
+  "conceptId": "UBERON:0006093"
+ },
+ "Allen_paracentral_lobule_caudal_part_R": {
+  "name": "paracentral lobule caudal part (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_paracentral_lobule_caudal_part_R"
+ },
+ "Allen_superior_temporal_gyrus_R": {
+  "name": "superior temporal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002769"
+ },
+ "Allen_middle_temporal_gyrus_R": {
+  "name": "middle temporal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002771"
+ },
+ "Allen_inferior_temporal_gyrus_R": {
+  "name": "inferior temporal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002751"
+ },
+ "Allen_occipitotemporal_fusiform_gyrus_temporal_part_R": {
+  "name": "occipitotemporal fusiform gyrus temporal part (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_occipitotemporal_fusiform_gyrus_temporal_part_R"
+ },
+ "Allen_transverse_temporal_gyrus_Heschls_gyrus_R": {
+  "name": "transverse temporal gyrus Heschls gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_transverse_temporal_gyrus_Heschls_gyrus_R"
+ },
+ "Allen_planum_temporale_R": {
+  "name": "planum temporale",
+  "system": "nervous",
+  "conceptId": "UBERON:0022268"
+ },
+ "Allen_temporal_pole_R": {
+  "name": "temporal pole",
+  "system": "nervous",
+  "conceptId": "UBERON:0002576"
+ },
+ "Allen_planum_polare_R": {
+  "name": "planum polare",
+  "system": "nervous",
+  "conceptId": "UBERON:0023861"
+ },
+ "Allen_occipital_pole_R": {
+  "name": "occipital pole",
+  "system": "nervous",
+  "conceptId": "UBERON:0002902"
+ },
+ "Allen_cuneus_R": {
+  "name": "cuneus cortex",
+  "system": "nervous",
+  "conceptId": "UBERON:0006092"
+ },
+ "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R": {
+  "name": "lingual gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002943"
+ },
+ "Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_R": {
+  "name": "occipital fusiform gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0022364"
+ },
+ "Allen_inferior_occipital_gyrus_R": {
+  "name": "inferior occipital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0014608"
+ },
+ "Allen_superior_occipital_gyrus_R": {
+  "name": "superior occipital gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002948"
+ },
+ "Allen_cingulate_gyrus_rostral_anterior_part_R": {
+  "name": "anterior cingulate gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002756"
+ },
+ "Allen_cingulate_gyrus_caudal_posterior_part_R": {
+  "name": "posterior cingulate gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002740"
+ },
+ "Allen_ingulo_parahippocampal_isthmus_R": {
+  "name": "isthmus of cingulate gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002738"
+ },
+ "Allen_subcallosal_gyrus_parolfactory_gyrus_R": {
+  "name": "subcallosal area",
+  "system": "nervous",
+  "conceptId": "UBERON:0003020"
+ },
+ "Allen_anterior_parahippocampal_gyrus_R": {
+  "name": "anterior parahippocampal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0022383"
+ },
+ "Allen_posterior_parahippocampal_gyrus_R": {
+  "name": "posterior parahippocampal gyrus",
+  "system": "nervous",
+  "conceptId": "UBERON:0002657"
+ },
+ "Allen_gyrus_ambiens_R": {
+  "name": "gyrus ambiens (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_gyrus_ambiens_R"
+ },
+ "Allen_long_insular_gyri_R": {
+  "name": "long insular gyri (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_long_insular_gyri_R"
+ },
+ "Allen_short_insular_gyri_R": {
+  "name": "short insular gyri (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_short_insular_gyri_R"
+ },
+ "Allen_limen_insula_R": {
+  "name": "limen insula (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_limen_insula_R"
+ },
+ "Allen_pretectal_region_R": {
+  "name": "pretectal region (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_pretectal_region_R"
+ },
+ "Allen_red_nucleus_R": {
+  "name": "red nucleus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001947"
+ },
+ "Allen_substantia_nigra_R": {
+  "name": "substantia nigra",
+  "system": "nervous",
+  "conceptId": "UBERON:0002038"
+ },
+ "Allen_superior_colliculus_R": {
+  "name": "superior colliculus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001945"
+ },
+ "Allen_inferior_colliculus_R": {
+  "name": "inferior colliculus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001946"
+ },
+ "Allen_cerebral_peduncle_crus_cerebri_R": {
+  "name": "cerebral peduncle",
+  "system": "nervous",
+  "conceptId": "UBERON:0002623"
+ },
+ "Allen_superior_cerebellar_peduncle_brachium_conjunctivum_R": {
+  "name": "superior cerebellar peduncle brachium conjunctivum (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_superior_cerebellar_peduncle_brachium_conjunctivum_R"
+ },
+ "Allen_cerebral_aqueduct_R": {
+  "name": "cerebral aqueduct (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_cerebral_aqueduct_R"
+ },
+ "Allen_paravermis_of_cerebellum_R": {
+  "name": "paravermis of cerebellum (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_paravermis_of_cerebellum_R"
+ },
+ "Allen_lateral_hemisphere_of_cerebellum_R": {
+  "name": "lateral hemisphere of cerebellum (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_hemisphere_of_cerebellum_R"
+ },
+ "Allen_basilar_part_of_pons_R": {
+  "name": "pontine nuclear group",
+  "system": "sensory",
+  "conceptId": "UBERON:0002151"
+ },
+ "Allen_pontine_tegmentum_R": {
+  "name": "pontine tegmentum",
+  "system": "nervous",
+  "conceptId": "UBERON:0003023"
+ },
+ "Allen_pyramidal_part_of_medulla_oblongata_R": {
+  "name": "pyramidal part of medulla oblongata (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_pyramidal_part_of_medulla_oblongata_R"
+ },
+ "Allen_tegmentum_of_medulla_oblongata_R": {
+  "name": "tegmentum of medulla oblongata (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tegmentum_of_medulla_oblongata_R"
+ },
+ "Allen_inferior_olive_R": {
+  "name": "inferior olive (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_inferior_olive_R"
+ },
+ "Allen_inferior_cerebellar_peduncle_R": {
+  "name": "inferior cerebellar peduncle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_inferior_cerebellar_peduncle_R"
+ },
+ "Allen_middle_cerebellar_peduncle_R": {
+  "name": "middle cerebellar peduncle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_middle_cerebellar_peduncle_R"
+ },
+ "Allen_fourth_ventricle_R": {
+  "name": "fourth ventricle",
+  "system": "nervous",
+  "conceptId": "UBERON:0002422"
+ },
+ "Allen_central_canal_of_medulla_oblongata_R": {
+  "name": "central canal of medulla oblongata (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_central_canal_of_medulla_oblongata_R"
+ },
+ "Allen_midline_nuclear_complex_R": {
+  "name": "midline nuclear complex (right)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_midline_nuclear_complex_R"
+ },
+ "Allen_lateral_olfactory_gyrus_R": {
+  "name": "lateral olfactory gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_lateral_olfactory_gyrus_R"
+ },
+ "Allen_parietal_operculum_R": {
+  "name": "parietal operculum",
+  "system": "nervous",
+  "conceptId": "UBERON:0002911"
+ },
+ "Allen_optic_radiation_R": {
+  "name": "optic radiation",
+  "system": "sensory",
+  "conceptId": "UBERON:0022264"
+ },
+ "Allen_posteroventral_putamen_R": {
+  "name": "posteroventral putamen (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_posteroventral_putamen_R"
+ },
+ "Allen_atrium_of_lateral_ventricle_R": {
+  "name": "atrium of lateral ventricle (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_atrium_of_lateral_ventricle_R"
+ },
+ "Allen_paracingulate_gyrus_R": {
+  "name": "paracingulate gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_paracingulate_gyrus_R"
+ },
+ "Allen_rostral_gyrus_R": {
+  "name": "rostral gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_rostral_gyrus_R"
+ },
+ "Allen_frontomarginal_gyrus_R": {
+  "name": "frontomarginal gyrus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_frontomarginal_gyrus_R"
+ },
+ "Allen_frontal_pole_R": {
+  "name": "frontal pole (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_frontal_pole_R"
+ },
+ "Allen_perirhinal_gyrus_rostral_part_of_FuGt_R": {
+  "name": "perirhinal gyrus rostral part of FuGt (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_perirhinal_gyrus_rostral_part_of_FuGt_R"
+ },
+ "Allen_hypothalamus_L": {
+  "name": "hypothalamus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001898"
+ },
+ "Allen_hypothalamus_R": {
+  "name": "hypothalamus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001898"
+ },
+ "Allen_subthalamic_nucleus_R": {
+  "name": "subthalamic nucleus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_subthalamic_nucleus_R"
+ },
+ "Allen_mammillary_region_of_HTH_R": {
+  "name": "mammillary region of HTH (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_mammillary_region_of_HTH_R"
+ },
+ "Allen_midbrain_tegmentum_R": {
+  "name": "midbrain tegmentum (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_midbrain_tegmentum_R"
+ },
+ "Allen_tuberal_region_of_HTH_R": {
+  "name": "tuberal region of HTH (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tuberal_region_of_HTH_R"
+ },
+ "Allen_preoptic_region_of_HTH_R": {
+  "name": "preoptic region of HTH (right)",
+  "system": "sensory",
+  "conceptId": "HRA:Allen_preoptic_region_of_HTH_R"
+ },
+ "Allen_midbrain_tegmentum_L": {
+  "name": "midbrain tegmentum (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_midbrain_tegmentum_L"
+ },
+ "Allen_red_nucleus_L": {
+  "name": "red nucleus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001947"
+ },
+ "Allen_inferior_colliculus_L": {
+  "name": "inferior colliculus",
+  "system": "nervous",
+  "conceptId": "UBERON:0001946"
+ },
+ "Allen_mammillary_region_of_HTH_L": {
+  "name": "mammillary region of HTH (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_mammillary_region_of_HTH_L"
+ },
+ "Allen_subthalamic_nucleus_L": {
+  "name": "subthalamic nucleus (left)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_subthalamic_nucleus_L"
+ },
+ "Allen_head_of_hippocampus_R": {
+  "name": "head of hippocampus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_head_of_hippocampus_R"
+ },
+ "Allen_body_of_hippocampus_R": {
+  "name": "body of hippocampus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_body_of_hippocampus_R"
+ },
+ "Allen_tail_of_hippocampus_R": {
+  "name": "tail of hippocampus (right)",
+  "system": "nervous",
+  "conceptId": "HRA:Allen_tail_of_hippocampus_R"
+ },
+ "VH_F_C1_segment_of_cervical_spinal_cord": {
+  "name": "C1 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006469"
+ },
+ "VH_F_C2_segment_of_cervical_spinal_cord": {
+  "name": "C2 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006489"
+ },
+ "VH_F_C3_segment_of_cervical_spinal_cord": {
+  "name": "C3 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006488"
+ },
+ "VH_F_C4_segment_of_cervical_spinal_cord": {
+  "name": "C4 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006490"
+ },
+ "VH_F_C5_segment_of_cervical_spinal_cord": {
+  "name": "C5 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006491"
+ },
+ "VH_F_C6_segment_of_cervical_spinal_cord": {
+  "name": "C6 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006492"
+ },
+ "VH_F_C7_segment_of_cervical_spinal_cord": {
+  "name": "C7 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006493"
+ },
+ "VH_F_C8_segment_of_cervical_spinal_cord": {
+  "name": "C8 segment of cervical spinal cord",
+  "system": "nervous",
+  "conceptId": "UBERON:0006470"
+ },
+ "VH_F_first_thoracic_spinal_cord_segment": {
+  "name": "first thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006457"
+ },
+ "VH_F_second_thoracic_spinal_cord_segment": {
+  "name": "second thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006458"
+ },
+ "VH_F_third_thoracic_spinal_cord_segment": {
+  "name": "third thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006459"
+ },
+ "VH_F_fourth_thoracic_spinal_cord_segment": {
+  "name": "fourth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006452"
+ },
+ "VH_F_fifth_thoracic_spinal_cord_segment": {
+  "name": "fifth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006453"
+ },
+ "VH_F_seventh_thoracic_spinal_cord_segment": {
+  "name": "seventh thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006455"
+ },
+ "VH_F_eigth_thoracic_spinal_cord_segment": {
+  "name": "eighth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006456"
+ },
+ "VH_F_sixth_thoracic_spinal_cord_segment": {
+  "name": "sixth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006454"
+ },
+ "VH_F_ninth_thoracic_spinal_cord_segment": {
+  "name": "ninth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006465"
+ },
+ "VH_F_tenth_thoracic_spinal_cord_segment": {
+  "name": "tenth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006466"
+ },
+ "VH_F_eleventh_thoracic_spinal_cord_segment": {
+  "name": "eleventh thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006467"
+ },
+ "VH_F_twelfth_thoracic_spinal_cord_segment": {
+  "name": "twelfth thoracic spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006468"
+ },
+ "VH_F_first_lumbar_spinal_cord_segment": {
+  "name": "first lumbar spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006448"
+ },
+ "VH_F_second_lumbar_spinal_cord_segment": {
+  "name": "second lumbar spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006450"
+ },
+ "VH_F_third_lumbar_spinal_cord_segment": {
+  "name": "third lumbar spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006449"
+ },
+ "VH_F_fourth_lumbar_spinal_cord_segment": {
+  "name": "fourth lumbar spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006451"
+ },
+ "VH_F_fifth_lumbar_spinal_cord_segment": {
+  "name": "fifth lumbar spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006447"
+ },
+ "VH_F_first_sacral_spinal_cord_segment": {
+  "name": "first sacral spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006460"
+ },
+ "VH_F_second_sacral_spinal_cord_segment": {
+  "name": "second sacral spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006461"
+ },
+ "VH_F_third_sacral_spinal_cord_segment": {
+  "name": "third sacral spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006462"
+ },
+ "VH_F_fourth_sacral_spinal_cord_segment": {
+  "name": "fourth sacral spinal cord segment",
+  "system": "nervous",
+  "conceptId": "UBERON:0006463"
+ },
+ "VH_F_medial_rectus_extraocular_muscle_L": {
+  "name": "Left medial rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49057"
+ },
+ "VH_F_inferior_rectus_extraocular_muscle_L": {
+  "name": "Left inferior rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49047"
+ },
+ "VH_F_superior_rectus_extraocular_muscle_L": {
+  "name": "Left superior rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49045"
+ },
+ "VH_F_inferior_oblique_extraocular_muscle_L": {
+  "name": "Left inferior oblique",
+  "system": "muscular",
+  "conceptId": "FMA:49051"
+ },
+ "VH_F_lateral_rectus_extraocular_muscle_L": {
+  "name": "Left lateral rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49055"
+ },
+ "VH_F_superior_oblique_extraocular_muscle_L": {
+  "name": "Left superior oblique",
+  "system": "muscular",
+  "conceptId": "FMA:49053"
+ },
+ "VH_F_medial_rectus_extraocular_muscle_R": {
+  "name": "Right medial rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49056"
+ },
+ "VH_F_inferior_rectus_extraocular_muscle_R": {
+  "name": "Right inferior rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49046"
+ },
+ "VH_F_superior_rectus_extraocular_muscle_R": {
+  "name": "Right superior rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49044"
+ },
+ "VH_F_inferior_oblique_extraocular_muscle_R": {
+  "name": "Right inferior oblique",
+  "system": "muscular",
+  "conceptId": "FMA:49050"
+ },
+ "VH_F_lateral_rectus_extraocular_muscle_R": {
+  "name": "Right lateral rectus",
+  "system": "muscular",
+  "conceptId": "FMA:49054"
+ },
+ "VH_F_superior_oblique_extraocular_muscle_R": {
+  "name": "Right superior oblique",
+  "system": "muscular",
+  "conceptId": "FMA:49052"
+ },
+ "VH_F_rectus_femoris_L": {
+  "name": "Left rectus femoris",
+  "system": "muscular",
+  "conceptId": "FMA:38929"
+ },
+ "VH_F_tendon_of_quadriceps_femoris_L": {
+  "name": "Tendon of left quadriceps femoris",
+  "system": "muscular",
+  "conceptId": "FMA:46902"
+ },
+ "VH_F_rectus_femoris_R": {
+  "name": "Right rectus femoris",
+  "system": "muscular",
+  "conceptId": "FMA:38928"
+ },
+ "VH_F_tendon_of_quadriceps_femoris_R": {
+  "name": "Tendon of right quadriceps femoris",
+  "system": "muscular",
+  "conceptId": "FMA:46901"
+ },
+ "VH_F_basal_plate": {
+  "name": "basal plate",
+  "system": "pregnancy",
+  "conceptId": "HRA:VH_F_basal_plate"
+ },
+ "VH_F_chorionic_plate": {
+  "name": "chorionic plate",
+  "system": "pregnancy",
+  "conceptId": "UBERON:0004027"
+ },
+ "VH_F_placenta_vessels": {
+  "name": "placenta vessels",
+  "system": "pregnancy",
+  "conceptId": "HRA:VH_F_placenta_vessels"
+ },
+ "VH_F_amnion": {
+  "name": "amnion",
+  "system": "pregnancy",
+  "conceptId": "UBERON:0000305"
+ },
+ "VH_F_umbilical_cord": {
+  "name": "umbilical cord",
+  "system": "pregnancy",
+  "conceptId": "UBERON:0002331"
+ },
+ "VH_F_umbilical_artery_1": {
+  "name": "umbilical artery",
+  "system": "pregnancy",
+  "conceptId": "UBERON:0001310"
+ },
+ "VH_F_umbilical_artery_2": {
+  "name": "umbilical artery",
+  "system": "pregnancy",
+  "conceptId": "UBERON:0001310"
+ },
+ "VH_F_umbilical_vein": {
+  "name": "umbilical vein",
+  "system": "pregnancy",
+  "conceptId": "UBERON:0002066"
+ },
+ "VH_F_vagina": {
+  "name": "vagina",
+  "system": "reproductive",
+  "conceptId": "UBERON:0000996"
+ },
+ "VH_F_cervicovaginal_junction": {
+  "name": "cervicovaginal junction",
+  "system": "reproductive",
+  "conceptId": "HRA:VH_F_cervicovaginal_junction"
+ },
+ "VH_F_ampulla_of_uterine_tube_R": {
+  "name": "Ampulla of right uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18491"
+ },
+ "VH_F_isthmus_of_fallopian_tube_R": {
+  "name": "Isthmus of right uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18493"
+ },
+ "VH_F_fibria_of_uterine_tube_R": {
+  "name": "Fimbria of right uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18497"
+ },
+ "VH_F_uterine_tube_infundibulum_R": {
+  "name": "Infundibulum of right uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18489"
+ },
+ "VH_F_uterine_tube_infundibulum_L": {
+  "name": "Infundibulum of left uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18490"
+ },
+ "VH_F_fibria_of_uterine_tube_L": {
+  "name": "Fimbria of left uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18498"
+ },
+ "VH_F_isthmus_of_fallopian_tube_L": {
+  "name": "Isthmus of left uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18494"
+ },
+ "VH_F_ampulla_of_uterine_tube_L": {
+  "name": "Ampulla of left uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:18492"
+ },
+ "VH_F_uterovesical_pouch": {
+  "name": "Uterovesical pouch",
+  "system": "reproductive",
+  "conceptId": "FMA:14729"
+ },
+ "VH_F_right_round_ligament_of_uterus": {
+  "name": "Right round ligament of uterus",
+  "system": "reproductive",
+  "conceptId": "FMA:57789"
+ },
+ "VH_F_left_round_ligament_of_uterus": {
+  "name": "Left round ligament of uterus",
+  "system": "reproductive",
+  "conceptId": "FMA:57790"
+ },
+ "VH_F_right_uterosacral_ligament": {
+  "name": "Right uterosacral ligament",
+  "system": "reproductive",
+  "conceptId": "FMA:19119"
+ },
+ "VH_F_left_uterosacral_ligament": {
+  "name": "Left uterosacral ligament",
+  "system": "reproductive",
+  "conceptId": "FMA:19120"
+ },
+ "VH_F_right_cardinal_ligament_of_uterus": {
+  "name": "Cardinal ligament",
+  "system": "reproductive",
+  "conceptId": "FMA:77064"
+ },
+ "VH_F_left_cardinal_ligament_of_uterus": {
+  "name": "Cardinal ligament",
+  "system": "reproductive",
+  "conceptId": "FMA:77064"
+ },
+ "VH_F_suspensory_ligament_of_ovary_R": {
+  "name": "Suspensory ligament of right ovary",
+  "system": "reproductive",
+  "conceptId": "FMA:19823"
+ },
+ "VH_F_suspensory_ligament_of_ovary_L": {
+  "name": "Suspensory ligament of left ovary",
+  "system": "reproductive",
+  "conceptId": "FMA:19824"
+ },
+ "VH_F_ovarian_ligament_L": {
+  "name": "Left ovarian ligament",
+  "system": "reproductive",
+  "conceptId": "FMA:55424"
+ },
+ "VH_F_ovarian_ligament_R": {
+  "name": "Right ovarian ligament",
+  "system": "reproductive",
+  "conceptId": "FMA:55423"
+ },
+ "VH_F_broad_ligament": {
+  "name": "broad ligament of uterus",
+  "system": "reproductive",
+  "conceptId": "UBERON:0012332"
+ },
+ "VH_F_mesosalpinx_L": {
+  "name": "Left mesosalpinx",
+  "system": "reproductive",
+  "conceptId": "FMA:19810"
+ },
+ "VH_F_mesosalpinx_R": {
+  "name": "Right mesosalpinx",
+  "system": "reproductive",
+  "conceptId": "FMA:19809"
+ },
+ "VH_F_mesovarium_R": {
+  "name": "Right mesovarium",
+  "system": "reproductive",
+  "conceptId": "FMA:19817"
+ },
+ "VH_F_mesovarium_L": {
+  "name": "Left mesovarium",
+  "system": "reproductive",
+  "conceptId": "FMA:19818"
+ },
+ "VH_F_left_ovary": {
+  "name": "Left ovary",
+  "system": "reproductive",
+  "conceptId": "FMA:7214"
+ },
+ "VH_F_right_ovary": {
+  "name": "Right ovary",
+  "system": "reproductive",
+  "conceptId": "FMA:7213"
+ },
+ "VH_F_abdominal_ostium_of_uterine_tube": {
+  "name": "Abdominal ostium of uterine tube",
+  "system": "reproductive",
+  "conceptId": "FMA:77049"
+ },
+ "VH_F_body_of_uterus": {
+  "name": "body of uterus",
+  "system": "reproductive",
+  "conceptId": "UBERON:0009853"
+ },
+ "VH_F_fundus_of_uterus": {
+  "name": "Fundus of uterus",
+  "system": "reproductive",
+  "conceptId": "FMA:17561"
+ },
+ "VH_F_cornua": {
+  "name": "cornua",
+  "system": "reproductive",
+  "conceptId": "HRA:VH_F_cornua"
+ },
+ "VH_F_lower_uterine_segment": {
+  "name": "Lower uterine segment",
+  "system": "reproductive",
+  "conceptId": "FMA:17752"
+ },
+ "VH_F_posterior_wall_of_uterus": {
+  "name": "Posterior wall of uterus",
+  "system": "reproductive",
+  "conceptId": "FMA:224878"
+ },
+ "VH_F_anterior_wall_of_uterus": {
+  "name": "Anterior wall of uterus",
+  "system": "reproductive",
+  "conceptId": "FMA:224876"
+ },
+ "VH_F_cervix": {
+  "name": "uterine cervix",
+  "system": "reproductive",
+  "conceptId": "UBERON:0000002"
+ },
+ "VH_F_internal_cervical_os": {
+  "name": "internal cervical os",
+  "system": "reproductive",
+  "conceptId": "UBERON:0013759"
+ },
+ "VH_F_external_cervical_os": {
+  "name": "external cervical os",
+  "system": "reproductive",
+  "conceptId": "UBERON:0013760"
+ },
+ "VH_F_omentum": {
+  "name": "omentum",
+  "system": "digestive",
+  "conceptId": "UBERON:0003688"
+ },
+ "VH_F_epiploic_appendage_of_transverse_colon": {
+  "name": "epiploic appendage of transverse colon",
+  "system": "digestive",
+  "conceptId": "FMA:15046"
+ },
+ "VH_F_submandibular_gland_L": {
+  "name": "Left submandibular gland",
+  "system": "digestive",
+  "conceptId": "FMA:59803"
+ },
+ "VH_F_submandibular_gland_R": {
+  "name": "Right submandibular gland",
+  "system": "digestive",
+  "conceptId": "FMA:59802"
+ },
+ "VH_F_parotid_gland_R": {
+  "name": "Right parotid gland",
+  "system": "digestive",
+  "conceptId": "FMA:59797"
+ },
+ "VH_F_parotid_gland_L": {
+  "name": "Left parotid gland",
+  "system": "digestive",
+  "conceptId": "FMA:59798"
+ },
+ "VH_F_sublingual_gland_R": {
+  "name": "Right sublingual gland",
+  "system": "digestive",
+  "conceptId": "FMA:59804"
+ },
+ "VH_F_sublingual_gland_L": {
+  "name": "Left sublingual gland",
+  "system": "digestive",
+  "conceptId": "FMA:59805"
+ },
+ "VH_F_buccal_mucosa": {
+  "name": "Buccal mucosa",
+  "system": "digestive",
+  "conceptId": "UBERON:0006956"
+ },
+ "VH_F_frenulum_of_upper_lip": {
+  "name": "Frenulum of upper lip",
+  "system": "digestive",
+  "conceptId": "UBERON:0016912"
+ },
+ "VH_F_frenulum_of_lower_lip": {
+  "name": "Frenulum of lower lip",
+  "system": "digestive",
+  "conceptId": "UBERON:0016913"
+ },
+ "VH_F_mouth_floor": {
+  "name": "Mouth floor",
+  "system": "digestive",
+  "conceptId": "UBERON:0003679"
+ },
+ "VH_F_ginviva_of_upper_jaw": {
+  "name": "Gingiva of upper jaw",
+  "system": "digestive",
+  "conceptId": "UBERON:0011601"
+ },
+ "VH_F_gingiva_of_lower_jaw": {
+  "name": "Gingiva of lower jaw",
+  "system": "digestive",
+  "conceptId": "UBERON:0011602"
+ },
+ "VH_F_posterior_part_of_tongue": {
+  "name": "Posterior part of tongue",
+  "system": "digestive",
+  "conceptId": "UBERON:0010033"
+ },
+ "VH_F_dorsal_tongue": {
+  "name": "Superior surface of tongue",
+  "system": "digestive",
+  "conceptId": "UBERON:0007371"
+ },
+ "VH_F_ventral_tongue": {
+  "name": "Inferior surface of tongue",
+  "system": "digestive",
+  "conceptId": "UBERON:0007373"
+ },
+ "VH_F_fungiform_papillae": {
+  "name": "Fungiform papilla",
+  "system": "digestive",
+  "conceptId": "UBERON:0002448"
+ },
+ "VH_F_circumvallate_papillae": {
+  "name": "Vallate papilla",
+  "system": "digestive",
+  "conceptId": "UBERON:0000396"
+ },
+ "VH_F_hard_palate": {
+  "name": "Hard palate",
+  "system": "digestive",
+  "conceptId": "UBERON:0003216"
+ },
+ "VH_F_mucosa_of_soft_palate": {
+  "name": "Mucosa of soft palate",
+  "system": "digestive",
+  "conceptId": "UBERON:0005024"
+ },
+ "VH_F_set_of_lower_jaw_teeth": {
+  "name": "Lower teeth",
+  "system": "skeletal",
+  "conceptId": "UBERON:0009679"
+ },
+ "VH_F_set_of_upper_jaw_teeth": {
+  "name": "Upper teeth",
+  "system": "skeletal",
+  "conceptId": "UBERON:0009680"
+ },
+ "VH_F_gastric_impression_of_liver": {
+  "name": "gastric impression of liver",
+  "system": "digestive",
+  "conceptId": "FMA:14487"
+ },
+ "VH_F_suprarenal_impression_of_liver": {
+  "name": "Suprarenal impression of liver",
+  "system": "digestive",
+  "conceptId": "FMA:14489"
+ },
+ "VH_F_renal_impression_of_liver": {
+  "name": "renal impression of liver",
+  "system": "digestive",
+  "conceptId": "FMA:14488"
+ },
+ "VH_F_duodenal_impression_of_liver": {
+  "name": "duodenal impression of liver",
+  "system": "digestive",
+  "conceptId": "FMA:14485"
+ },
+ "VH_F_esophageal_impression_of_liver": {
+  "name": "esophageal impression of liver",
+  "system": "digestive",
+  "conceptId": "FMA:14486"
+ },
+ "VH_F_porta_hepatis": {
+  "name": "porta hepatis",
+  "system": "digestive",
+  "conceptId": "FMA:15758"
+ },
+ "VH_F_colic_impression_of_liver": {
+  "name": "colic impression of liver",
+  "system": "digestive",
+  "conceptId": "FMA:14484"
+ },
+ "VH_F_capsule_of_the_liver": {
+  "name": "capsule of the liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0016479"
+ },
+ "VH_F_bare_area_of_liver": {
+  "name": "bare area of liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0001149"
+ },
+ "VH_F_diaphragmatic_surface_of_liver": {
+  "name": "diaphragmatic surface of liver",
+  "system": "digestive",
+  "conceptId": "FMA:15729"
+ },
+ "VH_F_left_anterolateral_segment": {
+  "name": "left anterolateral segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_left_anterolateral_segment"
+ },
+ "VH_F_left_superomedial_segment": {
+  "name": "left superomedial segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_left_superomedial_segment"
+ },
+ "VH_F_left_superomedial_segment1": {
+  "name": "left superomedial segment1",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_left_superomedial_segment1"
+ },
+ "VH_F_left_inferomedial_segment": {
+  "name": "left inferomedial segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_left_inferomedial_segment"
+ },
+ "VH_F_quadrate_lobe": {
+  "name": "quadrate lobe of liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0001116"
+ },
+ "VH_F_right_anterosuperior_segment": {
+  "name": "right anterosuperior segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_right_anterosuperior_segment"
+ },
+ "VH_F_right_posteroinferior_segment": {
+  "name": "right posteroinferior segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_right_posteroinferior_segment"
+ },
+ "VH_F_right_posterosuperior_segment": {
+  "name": "right posterosuperior segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_right_posterosuperior_segment"
+ },
+ "VH_F_right_anteroinferior_segment": {
+  "name": "right anteroinferior segment",
+  "system": "digestive",
+  "conceptId": "HRA:VH_F_right_anteroinferior_segment"
+ },
+ "VH_F_caudate_lobe": {
+  "name": "caudate lobe of liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0001117"
+ },
+ "VH_F_coronary_ligament_of_liver": {
+  "name": "coronary ligament of liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0013138"
+ },
+ "VH_F_falciform_ligament": {
+  "name": "falciform ligament",
+  "system": "digestive",
+  "conceptId": "UBERON:0001247"
+ },
+ "VH_F_triangular_ligament_of_liver": {
+  "name": "triangular ligament of liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0035444"
+ },
+ "VH_F_ligamentum_venosum": {
+  "name": "ligamentum venosum",
+  "system": "digestive",
+  "conceptId": "UBERON:0006587"
+ },
+ "VH_F_round_ligament_of_liver": {
+  "name": "round ligament of liver",
+  "system": "digestive",
+  "conceptId": "UBERON:0006588"
+ },
+ "VH_F_hepataduodenal_ligament": {
+  "name": "hepatoduodenal ligament",
+  "system": "digestive",
+  "conceptId": "UBERON:0012472"
+ },
+ "VH_F_tail_of_pancreas": {
+  "name": "tail of pancreas",
+  "system": "digestive",
+  "conceptId": "UBERON:0001151"
+ },
+ "VH_F_body_of_pancreas": {
+  "name": "body of pancreas",
+  "system": "digestive",
+  "conceptId": "UBERON:0001150"
+ },
+ "VH_F_ucinate_process1": {
+  "name": "uncinate process of pancreas",
+  "system": "digestive",
+  "conceptId": "UBERON:0010373"
+ },
+ "VH_F_head_of_pancreas": {
+  "name": "head of pancreas",
+  "system": "digestive",
+  "conceptId": "UBERON:0001069"
+ },
+ "VH_F_neck_of_pancreas": {
+  "name": "Neck of pancreas",
+  "system": "digestive",
+  "conceptId": "FMA:14517"
+ },
+ "VH_F_right_hepatic_duct": {
+  "name": "right hepatic duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0001176"
+ },
+ "VH_F_left_hepatic_duct": {
+  "name": "left hepatic duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0001177"
+ },
+ "VH_F_common_hepatic_duct": {
+  "name": "common hepatic duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0001175"
+ },
+ "VH_F_hepatopancreatic_ampulla": {
+  "name": "hepatopancreatic ampulla",
+  "system": "digestive",
+  "conceptId": "UBERON:0004913"
+ },
+ "VH_F_dorsal_pancreatic_duct": {
+  "name": "dorsal pancreatic duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0005429"
+ },
+ "VH_F_common_bile_duct": {
+  "name": "common bile duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0001174"
+ },
+ "VH_F_ventral_pancreatic_duct": {
+  "name": "Ventral pancreatic duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0001064"
+ },
+ "VH_F_cystic_duct": {
+  "name": "cystic duct",
+  "system": "digestive",
+  "conceptId": "UBERON:0001152"
+ },
+ "VH_F_duodenum_superior": {
+  "name": "superior part of duodenum",
+  "system": "digestive",
+  "conceptId": "FMA:7206"
+ },
+ "VH_F_duodenal_ampulla": {
+  "name": "duodenal ampulla",
+  "system": "digestive",
+  "conceptId": "UBERON:0013644"
+ },
+ "VH_F_duodenum_descending": {
+  "name": "descending part of duodenum",
+  "system": "digestive",
+  "conceptId": "FMA:14928"
+ },
+ "VH_F_sphincter_of_heptopancreatic_ampulla": {
+  "name": "Sphincter of hepatopancreatic ampulla",
+  "system": "digestive",
+  "conceptId": "FMA:15077"
+ },
+ "VH_F_duodenum_ascending": {
+  "name": "ascending part of duodenum",
+  "system": "digestive",
+  "conceptId": "FMA:14930"
+ },
+ "VH_F_duodenum_horizontal": {
+  "name": "horizontal part of duodenum",
+  "system": "digestive",
+  "conceptId": "FMA:14929"
+ },
+ "VH_F_jejenum": {
+  "name": "jejunum",
+  "system": "digestive",
+  "conceptId": "UBERON:0002115"
+ },
+ "VH_F_ileum": {
+  "name": "ileum",
+  "system": "digestive",
+  "conceptId": "UBERON:0002116"
+ },
+ "VH_F_ileum_terminal": {
+  "name": "distal part of ileum",
+  "system": "digestive",
+  "conceptId": "FMA:14966"
+ },
+ "VH_F_palatine_tonsil_L": {
+  "name": "left palatine tonsil",
+  "system": "digestive",
+  "conceptId": "FMA:54974"
+ },
+ "VH_F_palatine_tonsil_R": {
+  "name": "right palatine tonsil",
+  "system": "digestive",
+  "conceptId": "FMA:54973"
+ },
+ "VH_F_hepatic_flexure_of_colon": {
+  "name": "hepatic flexure of colon",
+  "system": "digestive",
+  "conceptId": "UBERON:0022277"
+ },
+ "VH_F_transverse_colon": {
+  "name": "transverse colon",
+  "system": "digestive",
+  "conceptId": "UBERON:0001157"
+ },
+ "VH_F_ascending_colon": {
+  "name": "ascending colon",
+  "system": "digestive",
+  "conceptId": "UBERON:0001156"
+ },
+ "VH_F_vermiform_appendix": {
+  "name": "vermiform appendix",
+  "system": "digestive",
+  "conceptId": "UBERON:0001154"
+ },
+ "VH_F_descending_colon": {
+  "name": "descending colon",
+  "system": "digestive",
+  "conceptId": "UBERON:0001158"
+ },
+ "VH_F_ileocecal_valve": {
+  "name": "ileocecal valve",
+  "system": "digestive",
+  "conceptId": "UBERON:0000569"
+ },
+ "VH_F_caecum": {
+  "name": "caecum",
+  "system": "digestive",
+  "conceptId": "UBERON:0001153"
+ },
+ "VH_F_rectum": {
+  "name": "rectum",
+  "system": "digestive",
+  "conceptId": "UBERON:0001052"
+ },
+ "VH_F_sigmoid_colon": {
+  "name": "sigmoid colon",
+  "system": "digestive",
+  "conceptId": "UBERON:0001159"
+ },
+ "VH_F_splenic_flexure_of_colon": {
+  "name": "splenic flexure of colon",
+  "system": "digestive",
+  "conceptId": "UBERON:0022276"
+ },
+ "VH_F_gallbladder": {
+  "name": "gallbladder",
+  "system": "digestive",
+  "conceptId": "UBERON:0002110"
+ },
+ "VH_F_kidney_capsule_L": {
+  "name": "kidney capsule",
+  "system": "urinary",
+  "conceptId": "UBERON:0002015"
+ },
+ "VH_F_hilum_of_kidney_L": {
+  "name": "hilum of kidney",
+  "system": "urinary",
+  "conceptId": "UBERON:0008716"
+ },
+ "VH_F_renal_papilla_L_a": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_b": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_c": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_d": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_e": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_f": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_g": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_h": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_i": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_j": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_L_k": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_pyramid_L_a": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_b": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_c": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_d": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_e": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_f": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_g": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_h": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_i": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_j": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_L_k": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_column_L": {
+  "name": "renal column",
+  "system": "urinary",
+  "conceptId": "UBERON:0001284"
+ },
+ "VH_F_outer_cortex_of_kidney_L": {
+  "name": "outer cortex of kidney",
+  "system": "urinary",
+  "conceptId": "UBERON:0002189"
+ },
+ "VH_F_kidney_capsule_R": {
+  "name": "kidney capsule",
+  "system": "urinary",
+  "conceptId": "UBERON:0002015"
+ },
+ "VH_F_hilum_of_kidney_R": {
+  "name": "hilum of kidney",
+  "system": "urinary",
+  "conceptId": "UBERON:0008716"
+ },
+ "VH_F_outer_cortex_of_kidney_R": {
+  "name": "outer cortex of kidney",
+  "system": "urinary",
+  "conceptId": "UBERON:0002189"
+ },
+ "VH_F_renal_column_R": {
+  "name": "renal column",
+  "system": "urinary",
+  "conceptId": "UBERON:0001284"
+ },
+ "VH_F_renal_papilla_R_a": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_b": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_c": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_d": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_e": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_f": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_g": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_h": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_i": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_papilla_R_j": {
+  "name": "renal papilla",
+  "system": "urinary",
+  "conceptId": "UBERON:0001228"
+ },
+ "VH_F_renal_pyramid_R_a": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_b": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_c": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_d": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_e": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_f": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_g": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_h": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_i": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_renal_pyramid_R_j": {
+  "name": "renal pyramid",
+  "system": "urinary",
+  "conceptId": "UBERON:0004200"
+ },
+ "VH_F_minor_calyx_R_a": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_b": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_c": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_d": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_e": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_f": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_g": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_h": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_i": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_R_j": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_major_calyx_R_a": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_major_calyx_R_b": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_major_calyx_R_c": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_renal_pelvis_R": {
+  "name": "renal pelvis",
+  "system": "urinary",
+  "conceptId": "UBERON:0001224"
+ },
+ "VH_F_right_ureter": {
+  "name": "right ureter",
+  "system": "urinary",
+  "conceptId": "UBERON:0001222"
+ },
+ "VH_F_minor_calyx_L_a": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_b": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_c": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_d": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_e": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_f": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_g": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_h": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_i": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_minor_calyx_L_j": {
+  "name": "minor calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001227"
+ },
+ "VH_F_major_calyx_L_a": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_major_calyx_L_b": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_major_calyx_L_c": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_major_calyx_L_d": {
+  "name": "major calyx",
+  "system": "urinary",
+  "conceptId": "UBERON:0001226"
+ },
+ "VH_F_renal_pelvis_L": {
+  "name": "renal pelvis",
+  "system": "urinary",
+  "conceptId": "UBERON:0001224"
+ },
+ "VH_F_left_ureter": {
+  "name": "left ureter",
+  "system": "urinary",
+  "conceptId": "UBERON:0001223"
+ },
+ "VH_F_fundus_of_urinary_bladder_dome": {
+  "name": "fundus of urinary bladder",
+  "system": "urinary",
+  "conceptId": "UBERON:0006082"
+ },
+ "VH_F_urinary_bladder_neck_smooth_muscle": {
+  "name": "urinary bladder neck smooth muscle",
+  "system": "urinary",
+  "conceptId": "UBERON:0004230"
+ },
+ "VH_F_fundus_of_urinary_bladder_base": {
+  "name": "fundus of urinary bladder",
+  "system": "urinary",
+  "conceptId": "UBERON:0006082"
+ },
+ "VH_F_trigone_of_urinary_bladder": {
+  "name": "trigone of urinary bladder",
+  "system": "urinary",
+  "conceptId": "UBERON:0001257"
+ },
+ "VH_F_ureteral_orifice_R": {
+  "name": "Right ureteral orifice",
+  "system": "urinary",
+  "conceptId": "FMA:15939"
+ },
+ "VH_F_ureteral_orifice_L": {
+  "name": "Left ureteral orifice",
+  "system": "urinary",
+  "conceptId": "FMA:15940"
+ },
+ "VH_F_interventricular_septum": {
+  "name": "interventricular septum",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002094"
+ },
+ "VH_F_left_cardiac_atrium": {
+  "name": "left cardiac atrium",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002079"
+ },
+ "VH_F_left_ventricle": {
+  "name": "heart left ventricle",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002084"
+ },
+ "VH_F_right_cardiac_atrium": {
+  "name": "right cardiac atrium",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002078"
+ },
+ "VH_F_right_ventricle": {
+  "name": "heart right ventricle",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002080"
+ },
+ "VH_F_papillary_muscle_of_heart_ant": {
+  "name": "Anterior papillary muscle of left ventricle",
+  "system": "cardiac",
+  "conceptId": "FMA:7264"
+ },
+ "VH_F_papillary_muscle_of_heart_antlat": {
+  "name": "Anterolateral head of lateral papillary muscle of left ventricle",
+  "system": "cardiac",
+  "conceptId": "FMA:7265"
+ },
+ "VH_F_papillary_muscle_of_heart_med": {
+  "name": "Septal papillary muscle of right ventricle",
+  "system": "cardiac",
+  "conceptId": "FMA:7262"
+ },
+ "VH_F_papillary_muscle_of_heart_pos": {
+  "name": "Posterior papillary muscle of right ventricle",
+  "system": "cardiac",
+  "conceptId": "FMA:7261"
+ },
+ "VH_F_papillary_muscle_of_heart_posmed": {
+  "name": "Posteromedial head of posterior papillary muscle of left ventricle",
+  "system": "cardiac",
+  "conceptId": "FMA:7267"
+ },
+ "VH_F_aortic_valve": {
+  "name": "aortic valve",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002137"
+ },
+ "VH_F_pulmonary_valve": {
+  "name": "pulmonary valve",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002146"
+ },
+ "VH_F_mitral_valve": {
+  "name": "mitral valve",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002135"
+ },
+ "VH_F_tricuspid_valve": {
+  "name": "tricuspid valve",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002134"
+ },
+ "VH_F_left_uterine_artery": {
+  "name": "Left uterine artery",
+  "system": "arterial",
+  "conceptId": "FMA:18831"
+ },
+ "VH_F_right_uterine_artery": {
+  "name": "Right uterine artery",
+  "system": "arterial",
+  "conceptId": "FMA:18830"
+ },
+ "VH_F_left_uterine_vein": {
+  "name": "Left uterine vein",
+  "system": "venous",
+  "conceptId": "FMA:18898"
+ },
+ "VH_F_right_uterine_vein": {
+  "name": "Right uterine vein",
+  "system": "venous",
+  "conceptId": "FMA:18897"
+ },
+ "VH_F_ophthalmic_vein_L": {
+  "name": "ophthalmic vein",
+  "system": "venous",
+  "conceptId": "UBERON:0011191"
+ },
+ "VH_F_superior_ophthalmic_vein_L": {
+  "name": "Left superior ophthalmic vein",
+  "system": "venous",
+  "conceptId": "FMA:51249"
+ },
+ "VH_F_inferior_ophthalmic_vein_L": {
+  "name": "Left inferior ophthalmic vein",
+  "system": "venous",
+  "conceptId": "FMA:51251"
+ },
+ "VH_F_central_retinal_vein_L": {
+  "name": "Left central retinal vein",
+  "system": "venous",
+  "conceptId": "FMA:51885"
+ },
+ "VH_F_ophthalmic_vein_R": {
+  "name": "ophthalmic vein",
+  "system": "venous",
+  "conceptId": "UBERON:0011191"
+ },
+ "VH_F_superior_ophthalmic_vein_R": {
+  "name": "Right superior ophthalmic vein",
+  "system": "venous",
+  "conceptId": "FMA:51248"
+ },
+ "VH_F_inferior_ophthalmic_vein_R": {
+  "name": "Right inferior ophthalmic vein",
+  "system": "venous",
+  "conceptId": "FMA:51250"
+ },
+ "VH_F_central_retinal_vein_R": {
+  "name": "Right central retinal vein",
+  "system": "venous",
+  "conceptId": "FMA:51884"
+ },
+ "VH_F_long_posterior_ciliary_artery_L": {
+  "name": "Left long posterior ciliary artery",
+  "system": "arterial",
+  "conceptId": "FMA:49958"
+ },
+ "VH_F_opthalmic_artery_L": {
+  "name": "ophthalmic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001619"
+ },
+ "VH_F_central_retinal_artery_L": {
+  "name": "Left central retinal artery",
+  "system": "arterial",
+  "conceptId": "FMA:49881"
+ },
+ "VH_F_long_posterior_ciliary_artery_R": {
+  "name": "Right long posterior ciliary artery",
+  "system": "arterial",
+  "conceptId": "FMA:49957"
+ },
+ "VH_F_opthalmic_artery_R": {
+  "name": "ophthalmic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001619"
+ },
+ "VH_F_central_retinal_artery_R": {
+  "name": "Right central retinal artery",
+  "system": "arterial",
+  "conceptId": "FMA:49880"
+ },
+ "VH_F_right_renal_artery": {
+  "name": "right renal artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001185"
+ },
+ "VH_F_left_renal_artery": {
+  "name": "left renal artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001186"
+ },
+ "VH_F_left_renal_vein": {
+  "name": "left renal vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001142"
+ },
+ "VH_F_right_renal_vein": {
+  "name": "right renal vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001141"
+ },
+ "VH_F_superior_mesenteric_vein": {
+  "name": "superior mesenteric vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001138"
+ },
+ "VH_F_superior_rectal_vein": {
+  "name": "superior rectal artery",
+  "system": "venous",
+  "conceptId": "UBERON:0035040"
+ },
+ "VH_F_left_common_iliac_vein": {
+  "name": "Left common iliac vein",
+  "system": "venous",
+  "conceptId": "FMA:21388"
+ },
+ "VH_F_right_common_iliac_vein": {
+  "name": "Right common iliac vein",
+  "system": "venous",
+  "conceptId": "FMA:21387"
+ },
+ "VH_F_left_colic_vein": {
+  "name": "Left colic vein",
+  "system": "venous",
+  "conceptId": "FMA:15394"
+ },
+ "VH_F_right_colic_vein": {
+  "name": "Right colic vein",
+  "system": "venous",
+  "conceptId": "FMA:15407"
+ },
+ "VH_F_ileocolic_vein": {
+  "name": "ileocolic vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001219"
+ },
+ "VH_F_middle_colic_vein": {
+  "name": "middle colic vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001218"
+ },
+ "VH_F_inferior_rectal_vein_L": {
+  "name": "Inferior rectal vein",
+  "system": "venous",
+  "conceptId": "FMA:21242"
+ },
+ "VH_F_inferior_rectal_vein_R": {
+  "name": "Inferior rectal vein",
+  "system": "venous",
+  "conceptId": "FMA:21242"
+ },
+ "VH_F_internal_iliac_vein_L": {
+  "name": "internal iliac vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001317"
+ },
+ "VH_F_internal_iliac_vein_R": {
+  "name": "internal iliac vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001317"
+ },
+ "VH_F_internal_pudendal_vein_L": {
+  "name": "internal pudendal vein",
+  "system": "venous",
+  "conceptId": "UBERON:0018252"
+ },
+ "VH_F_internal_pudendal_vein_R": {
+  "name": "internal pudendal vein",
+  "system": "venous",
+  "conceptId": "UBERON:0018252"
+ },
+ "VH_F_middle_rectal_vein_L": {
+  "name": "Left middle rectal vein",
+  "system": "venous",
+  "conceptId": "FMA:18895"
+ },
+ "VH_F_middle_rectal_vein_R": {
+  "name": "Right middle rectal vein",
+  "system": "venous",
+  "conceptId": "FMA:18894"
+ },
+ "VH_F_sigmoid_vein_a": {
+  "name": "sigmoid vein",
+  "system": "venous",
+  "conceptId": "FMA:15395"
+ },
+ "VH_F_sigmoid_vein_c": {
+  "name": "sigmoid vein",
+  "system": "venous",
+  "conceptId": "FMA:15395"
+ },
+ "VH_F_median_sacral_vein": {
+  "name": "median sacral vein",
+  "system": "venous",
+  "conceptId": "UBERON:0006687"
+ },
+ "VH_F_sigmoid_vein_b": {
+  "name": "sigmoid vein",
+  "system": "venous",
+  "conceptId": "FMA:15395"
+ },
+ "VH_F_inferior_pancreaticoduodenal_vein": {
+  "name": "Inferior pancreaticoduodenal vein",
+  "system": "venous",
+  "conceptId": "FMA:0329299"
+ },
+ "VH_F_inferior_mesenteric_vein": {
+  "name": "superior mesenteric artery",
+  "system": "venous",
+  "conceptId": "UBERON:0001182"
+ },
+ "VH_F_left_colic_artery": {
+  "name": "Left colic artery",
+  "system": "arterial",
+  "conceptId": "FMA:14826"
+ },
+ "VH_F_right_colic_artery": {
+  "name": "Right colic artery",
+  "system": "arterial",
+  "conceptId": "FMA:14811"
+ },
+ "VH_F_ileocolic_artery": {
+  "name": "ileocolic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0035548"
+ },
+ "VH_F_middle_colic_artery": {
+  "name": "middle colic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001196"
+ },
+ "VH_F_celiac_trunk": {
+  "name": "Celiac trunk",
+  "system": "arterial",
+  "conceptId": "FMA:14812"
+ },
+ "VH_F_superior_rectal_artery": {
+  "name": "superior rectal artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0035040"
+ },
+ "VH_F_superior_mesenteric_artery": {
+  "name": "superior mesenteric artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001182"
+ },
+ "VH_F_inferior_mesenteric_artery": {
+  "name": "inferior mesenteric artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001183"
+ },
+ "VH_F_marginal_artery_of_Drummond": {
+  "name": "marginal colic artery",
+  "system": "arterial",
+  "conceptId": "FMA:14824"
+ },
+ "VH_F_sigmoid_artery_c": {
+  "name": "sigmoid artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0035180"
+ },
+ "VH_F_sigmoid_artery_b": {
+  "name": "sigmoid artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0035180"
+ },
+ "VH_F_sigmoid_artery_a": {
+  "name": "sigmoid artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0035180"
+ },
+ "VH_F_splenic_artery": {
+  "name": "splenic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0001194"
+ },
+ "VH_F_splenic_vein": {
+  "name": "splenic vein",
+  "system": "venous",
+  "conceptId": "UBERON:0003713"
+ },
+ "VH_F_cystic_artery": {
+  "name": "cystic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0039222"
+ },
+ "VH_F_cystic_vein": {
+  "name": "cystic vein",
+  "system": "venous",
+  "conceptId": "UBERON:0035392"
+ },
+ "VH_F_middle_hepatic_artery_branch_of_left_hepatic_artery": {
+  "name": "middle hepatic artery branch of left hepatic artery",
+  "system": "arterial",
+  "conceptId": "HRA:VH_F_middle_hepatic_artery_branch_of_left_hepatic_artery"
+ },
+ "VH_F_proper_hepatic_artery": {
+  "name": "Hepatic artery proper",
+  "system": "arterial",
+  "conceptId": "FMA:14772"
+ },
+ "VH_F_right_hepatic_artery": {
+  "name": "Right hepatic artery",
+  "system": "arterial",
+  "conceptId": "FMA:14778"
+ },
+ "VH_F_common_hepatic_artery": {
+  "name": "common hepatic artery",
+  "system": "arterial",
+  "conceptId": "UBERON:0005436"
+ },
+ "VH_F_posterior_segmental_right_hepatic_artery": {
+  "name": "posterior segmental right hepatic artery",
+  "system": "arterial",
+  "conceptId": "HRA:VH_F_posterior_segmental_right_hepatic_artery"
+ },
+ "VH_F_anterior_segmental_right_hepatic_artery": {
+  "name": "anterior segmental right hepatic artery",
+  "system": "arterial",
+  "conceptId": "HRA:VH_F_anterior_segmental_right_hepatic_artery"
+ },
+ "VH_F_left_hepatic_artery": {
+  "name": "Left hepatic artery",
+  "system": "arterial",
+  "conceptId": "FMA:14779"
+ },
+ "VH_F_hepatic_portal_vein": {
+  "name": "hepatic portal vein",
+  "system": "venous",
+  "conceptId": "UBERON:0001639"
+ },
+ "VH_F_middle_hepatic_vein": {
+  "name": "Middle hepatic vein",
+  "system": "venous",
+  "conceptId": "FMA:14340"
+ },
+ "VH_F_left_hepatic_vein": {
+  "name": "Left hepatic vein",
+  "system": "venous",
+  "conceptId": "FMA:14339"
+ },
+ "VH_F_right_hepatic_vein": {
+  "name": "Right hepatic vein",
+  "system": "venous",
+  "conceptId": "FMA:14338"
+ },
+ "VH_F_right_branch_of_portal_vein": {
+  "name": "right branch of portal vein",
+  "system": "venous",
+  "conceptId": "HRA:VH_F_right_branch_of_portal_vein"
+ },
+ "VH_F_left_branch_of_portal_vein": {
+  "name": "left branch of portal vein",
+  "system": "venous",
+  "conceptId": "HRA:VH_F_left_branch_of_portal_vein"
+ },
+ "VH_F_pulmonary_vein_L_sup": {
+  "name": "left superior pulmonary vein",
+  "system": "venous",
+  "conceptId": "FMA:49916"
+ },
+ "VH_F_pulmonary_vein_R_inf": {
+  "name": "left inferior pulmonary vein",
+  "system": "venous",
+  "conceptId": "FMA:49913"
+ },
+ "VH_F_pulmonary_vein_R_sup": {
+  "name": "right superior pulmonary vein",
+  "system": "venous",
+  "conceptId": "FMA:49914"
+ },
+ "VH_F_pulmonary_vein_L_inf": {
+  "name": "right inferior pulmonary vein",
+  "system": "venous",
+  "conceptId": "FMA:49911"
+ },
+ "VH_F_coronary_sinus": {
+  "name": "coronary sinus",
+  "system": "venous",
+  "conceptId": "UBERON:0005438"
+ },
+ "VH_F_great_cardiac_vein": {
+  "name": "great vein of heart",
+  "system": "venous",
+  "conceptId": "UBERON:0006958"
+ },
+ "VH_F_middle_cardiac_vein": {
+  "name": "middle cardiac vein",
+  "system": "venous",
+  "conceptId": "UBERON:0009687"
+ },
+ "VH_F_oblique_vein_of_left_atrium": {
+  "name": "Oblique vein of left atrium",
+  "system": "venous",
+  "conceptId": "FMA:4715"
+ },
+ "VH_F_left_marginal_vein": {
+  "name": "left marginal vein",
+  "system": "venous",
+  "conceptId": "FMA:4708"
+ },
+ "VH_F_posterior_vein_of_left_ventricle": {
+  "name": "Posterior vein of left ventricle",
+  "system": "venous",
+  "conceptId": "FMA:4712"
+ },
+ "VH_F_anterior_cardiac_vein": {
+  "name": "Anterior cardiac vein",
+  "system": "venous",
+  "conceptId": "FMA:76767"
+ },
+ "VH_F_small_cardiac_vein": {
+  "name": "small cardiac vein",
+  "system": "venous",
+  "conceptId": "UBERON:0035374"
+ },
+ "VH_F_superior_vena_cava": {
+  "name": "superior vena cava",
+  "system": "venous",
+  "conceptId": "FMA:4720"
+ },
+ "VH_F_inferior_vena_cava_a": {
+  "name": "inferior vena cava",
+  "system": "venous",
+  "conceptId": "FMA:10951"
+ },
+ "VH_F_inferior_vena_cava_b": {
+  "name": "inferior vena cava",
+  "system": "venous",
+  "conceptId": "FMA:10951"
+ },
+ "VH_F_left_anterior_descending_artery": {
+  "name": "Anterior descending branch of left pulmonary artery",
+  "system": "cardiac",
+  "conceptId": "FMA:8636"
+ },
+ "VH_F_left_circumflex_artery": {
+  "name": "circumflex branch of left coronary artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0035422"
+ },
+ "VH_F_diagonal_branch_of_left_anterior_descending_artery": {
+  "name": "Diagonal branch of anterior descending branch of left coronary artery",
+  "system": "cardiac",
+  "conceptId": "FMA:3860"
+ },
+ "VH_F_left_coronary_artery": {
+  "name": "left coronary artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001626"
+ },
+ "VH_F_left_marginal_branch": {
+  "name": "Left marginal artery",
+  "system": "cardiac",
+  "conceptId": "FMA:3902"
+ },
+ "VH_F_left_posterior_descending_branch_of_circumflex_branch_of_left_coronary_artery": {
+  "name": "left posterior descending branch of circumflex branch of left coronary artery",
+  "system": "cardiac",
+  "conceptId": "FMA:322904"
+ },
+ "VH_F_posterior_left_ventricular_branch": {
+  "name": "Posterior ventricular branch of circumflex coronary artery",
+  "system": "cardiac",
+  "conceptId": "FMA:13905"
+ },
+ "VH_F_right_coronary_artery": {
+  "name": "right coronary artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001625"
+ },
+ "VH_F_right_marginal_artery": {
+  "name": "marginal branch of right coronary artery",
+  "system": "cardiac",
+  "conceptId": "FMA:3818"
+ },
+ "VH_F_pulmonary_artery_L": {
+  "name": "left pulmonary artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001652"
+ },
+ "VH_F_pulmonary_trunk": {
+  "name": "pulmonary trunk",
+  "system": "cardiac",
+  "conceptId": "UBERON:0002333"
+ },
+ "VH_F_pulmonary_artery_R": {
+  "name": "right pulmonary artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001651"
+ },
+ "VH_F_aortic_arch": {
+  "name": "arch of aorta",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001508"
+ },
+ "VH_F_ascending_aorta": {
+  "name": "ascending aorta",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001496"
+ },
+ "VH_F_descending_aorta_a": {
+  "name": "descending aorta",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001514"
+ },
+ "VH_F_descending_aorta_b": {
+  "name": "descending aorta",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001514"
+ },
+ "VH_F_left_common_carotid_artery_a": {
+  "name": "left common carotid artery plus branches",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001536"
+ },
+ "VH_F_left_common_carotid_artery_b": {
+  "name": "left common carotid artery plus branches",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001536"
+ },
+ "VH_F_left_subclavian_artery_a": {
+  "name": "left subclavian artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001584"
+ },
+ "VH_F_left_subclavian_artery_b": {
+  "name": "left subclavian artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001584"
+ },
+ "VH_F_brachiocephalic_artery_b": {
+  "name": "brachiocephalic artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001529"
+ },
+ "VH_F_brachiocephalic_artery_a": {
+  "name": "brachiocephalic artery",
+  "system": "cardiac",
+  "conceptId": "UBERON:0001529"
+ },
+ "VH_F_hilum_L": {
+  "name": "left lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004887"
+ },
+ "VH_F_hilum_upper_L": {
+  "name": "left lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004887"
+ },
+ "VH_F_lingula_superior_bronchopulmonary_segment": {
+  "name": "Superior lingular bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7374"
+ },
+ "VH_F_left_anterior_bronchopulmonary_segment": {
+  "name": "Left Anterior Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7373"
+ },
+ "VH_F_left_apical_bronchopulmonary_segment": {
+  "name": "Left apical bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7385"
+ },
+ "VH_F_left_posterior_bronchopulmonary_segment": {
+  "name": "Left posterior bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7386"
+ },
+ "VH_F_lingula_inferior_bronchopulmonary_segment": {
+  "name": "Inferior lingular bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7375"
+ },
+ "VH_F_left_superior_bronchopulmonary_segment": {
+  "name": "Left superior bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7376"
+ },
+ "VH_F_left_posterior_basal_bronchopulmonary_segment": {
+  "name": "Left posterior basal bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7380"
+ },
+ "VH_F_left_anterior_basal_bronchopulmonary_segment": {
+  "name": "left anterior basal bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7378"
+ },
+ "VH_F_left_lateral_basal_bronchopulmonary_segment": {
+  "name": "left Lateral Basal Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7379"
+ },
+ "VH_F_left_medial_basal_bronchopulmonary_segment": {
+  "name": "Left Medial Basal Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7377"
+ },
+ "VH_F_hilum_lower_L": {
+  "name": "left lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004887"
+ },
+ "VH_F_hilum_R": {
+  "name": "right lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004888"
+ },
+ "VH_F_right_medial_basal_bronchopulmonary_segment": {
+  "name": "Right Medial Basal Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7365"
+ },
+ "VH_F_right_posterior_basal_bronchopulmonary_segment": {
+  "name": "Right Posterior Basal Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7362"
+ },
+ "VH_F_right_anterior_basal_bronchopulmonary_segment": {
+  "name": "Right anterior basal bronchopulmonary segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7364"
+ },
+ "VH_F_right_lateral_basal_bronchopulmonary_segment": {
+  "name": "Right Lateral Basal Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7363"
+ },
+ "VH_F_right_superior_bronchopulmonary_segment": {
+  "name": "Right Superior Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7366"
+ },
+ "VH_F_hilum_lower_R": {
+  "name": "right lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004888"
+ },
+ "VH_F_right_medial_bronchopulmonary_segment": {
+  "name": "Right Medial Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7360"
+ },
+ "VH_F_right_lateral_bronchopulmonary_segmennt": {
+  "name": "Right Lateral Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7361"
+ },
+ "VH_F_hilum_middle_R": {
+  "name": "right lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004888"
+ },
+ "VH_F_right_anterior_bronchopulmonary_segm": {
+  "name": "Right Anterior Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7359"
+ },
+ "VH_F_right_apical_bronchopulmonary_segment": {
+  "name": "Right Apical Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7338"
+ },
+ "VH_F_right_posterior_bronchopulmonary_segment": {
+  "name": "Right Posterior Bronchopulmonary Segment",
+  "system": "respiratory",
+  "conceptId": "FMA:7339"
+ },
+ "VH_F_hilum_upper_R": {
+  "name": "right lung hilus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0004888"
+ },
+ "VH_F_arytenoid_cartilage_R": {
+  "name": "Right arytenoid cartilage",
+  "system": "respiratory",
+  "conceptId": "FMA:55113"
+ },
+ "VH_F_arytenoid_cartilage_L": {
+  "name": "Left arytenoid cartilage",
+  "system": "respiratory",
+  "conceptId": "FMA:55114"
+ },
+ "VH_F_epiglotic_cartilage": {
+  "name": "epiglottic cartilage",
+  "system": "respiratory",
+  "conceptId": "UBERON:0001742"
+ },
+ "VH_F_cricoid_cartilage": {
+  "name": "cricoid cartilage",
+  "system": "respiratory",
+  "conceptId": "UBERON:0002375"
+ },
+ "VH_F_thyroid_cartilage": {
+  "name": "thyroid cartilage",
+  "system": "respiratory",
+  "conceptId": "UBERON:0001738"
+ },
+ "VH_F_corniculate_cartilage_L": {
+  "name": "Left corniculate cartilage",
+  "system": "respiratory",
+  "conceptId": "FMA:55116"
+ },
+ "VH_F_corniculate_cartilage_R": {
+  "name": "Right corniculate cartilage",
+  "system": "respiratory",
+  "conceptId": "FMA:55115"
+ },
+ "VH_F_trachea": {
+  "name": "trachea",
+  "system": "respiratory",
+  "conceptId": "UBERON:0003126"
+ },
+ "VH_F_tracheal_cartilage": {
+  "name": "trachea cartilage",
+  "system": "respiratory",
+  "conceptId": "UBERON:0003604"
+ },
+ "VH_F_carina": {
+  "name": "carina of trachea",
+  "system": "respiratory",
+  "conceptId": "UBERON:0006679"
+ },
+ "VH_F_right_main_bronchus": {
+  "name": "Right Main Bronchus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0002177"
+ },
+ "VH_F_cartilage_of_main_bronchus_R": {
+  "name": "Cartilage of right main bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:13143"
+ },
+ "VH_F_left_main_bronchus": {
+  "name": "Left Main Bronchus",
+  "system": "respiratory",
+  "conceptId": "UBERON:0002178"
+ },
+ "VH_F_cartilage_of_main_bronchus_L": {
+  "name": "Cartilage of left main bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:13144"
+ },
+ "VH_F_cartilage_of_lobar_bronchus_L": {
+  "name": "Cartilage of lobar bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:62659"
+ },
+ "VH_F_cartilage_of_tertiary_bronchus_L": {
+  "name": "Cartilage of segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:62662"
+ },
+ "VH_F_left_superior_lobar_bronchus": {
+  "name": "lobar bronchus of left lung upper lobe",
+  "system": "respiratory",
+  "conceptId": "UBERON:0012065"
+ },
+ "VH_F_left_inferior_lobar_bronchus": {
+  "name": "lobar bronchus of left lung lower lobe",
+  "system": "respiratory",
+  "conceptId": "UBERON:0012066"
+ },
+ "VH_F_left_anterior_basal_bronchus": {
+  "name": "Left anterior basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7506"
+ },
+ "VH_F_left_lingula_superior_bronchus": {
+  "name": "Superior lingular bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7430"
+ },
+ "VH_F_left_apical_bronchus": {
+  "name": "Left apical segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7426"
+ },
+ "VH_F_left_posterior_basal_bronchus": {
+  "name": "Left posterior basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7508"
+ },
+ "VH_F_left_medial_basal_bronchus": {
+  "name": "Left medial basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7505"
+ },
+ "VH_F_left_superior_bronchus": {
+  "name": "Left superior segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7504"
+ },
+ "VH_F_left_anterior_bronchus": {
+  "name": "Left anterior segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7428"
+ },
+ "VH_F_left_posterior_bronchus": {
+  "name": "Left posterior segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7427"
+ },
+ "VH_F_left_lateral_basal_bronchus": {
+  "name": "Left lateral basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7507"
+ },
+ "VH_F_left_lingula_inferior_bronchi": {
+  "name": "Inferior lingular bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7431"
+ },
+ "VH_F_cartilage_of_lobar_bronchus_R": {
+  "name": "Cartilage of lobar bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:62659"
+ },
+ "VH_F_cartilage_of_tertiary_bronchus_R": {
+  "name": "Cartilage of segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:62662"
+ },
+ "VH_F_right_middle_lobar_bronchus": {
+  "name": "Middle lobar bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7401"
+ },
+ "VH_F_right_superior_lobar_bronchus": {
+  "name": "Right superior lobar bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7397"
+ },
+ "VH_F_right_inferior_lobar_bronchus": {
+  "name": "Right inferior lobar bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7404"
+ },
+ "VH_F_right_anterior_bronchus": {
+  "name": "Right anterior segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7400"
+ },
+ "VH_F_right_lateral_basal_bronchus": {
+  "name": "Right lateral basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7419"
+ },
+ "VH_F_right_lateral_bronchus": {
+  "name": "Lateral segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7402"
+ },
+ "VH_F_right_medial_bronchus": {
+  "name": "Medial segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7403"
+ },
+ "VH_F_right_medial_basal_bronchus": {
+  "name": "Right medial basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7417"
+ },
+ "VH_F_right_posterior_basal_bronchus": {
+  "name": "Right posterior basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7420"
+ },
+ "VH_F_right_posterior_bronchus": {
+  "name": "Right posterior segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7399"
+ },
+ "VH_F_right_superior_bronchus": {
+  "name": "Right superior segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7416"
+ },
+ "VH_F_right_apical_bronchus": {
+  "name": "Right apical segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7398"
+ },
+ "VH_F_right_anterior_basal_bronchus": {
+  "name": "Right anterior basal segmental bronchus",
+  "system": "respiratory",
+  "conceptId": "FMA:7418"
+ },
+ "VH_F_gastric_surface_of_spleen": {
+  "name": "gastric surface of spleen",
+  "system": "lymphatic",
+  "conceptId": "FMA:15837"
+ },
+ "VH_F_diaphragmatic_surface_of_spleen": {
+  "name": "diaphragmatic surface of spleen",
+  "system": "lymphatic",
+  "conceptId": "FMA:15828"
+ },
+ "VH_F_colic_surface_of_spleen": {
+  "name": "colic surface of spleen",
+  "system": "lymphatic",
+  "conceptId": "FMA:15838"
+ },
+ "VH_F_hilum_of_spleen": {
+  "name": "hilum of spleen",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0001248"
+ },
+ "VH_F_renal_surface_of_spleen": {
+  "name": "renal surface of spleen",
+  "system": "lymphatic",
+  "conceptId": "FMA:15839"
+ },
+ "VH_F_thymus_lobe_L": {
+  "name": "left thymus lobe",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0005457"
+ },
+ "VH_F_thymus_lobe_R": {
+  "name": "right thymus lobe",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0005469"
+ },
+ "Yao_afferent_lymphatic_vessel": {
+  "name": "afferent lymphatic vessel",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0010396"
+ },
+ "Yao_capsule_of_lymph_node": {
+  "name": "capsule of lymph node",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0002194"
+ },
+ "Yao_follicles": {
+  "name": "lymph node follicle",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0010748"
+ },
+ "Yao_efferent_lymph_node": {
+  "name": "efferent lymphatic vessel",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0010397"
+ },
+ "Yao_medulla_of_lymph_node": {
+  "name": "medulla of lymph node",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0002007"
+ },
+ "Yao_paracortex": {
+  "name": "lymph node T cell domain",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0010417"
+ },
+ "Yao_blood_vasculature": {
+  "name": "Lymph vasculature",
+  "system": "lymphatic",
+  "conceptId": "UBERON:0004536"
+ },
+ "VH_F_sternum": {
+  "name": "sternum",
+  "system": "skeletal",
+  "conceptId": "UBERON:0000975"
+ },
+ "VH_F_manubrium": {
+  "name": "manubrium",
+  "system": "skeletal",
+  "conceptId": "UBERON:2001553"
+ },
+ "VH_F_sacrum": {
+  "name": "fused sacrum",
+  "system": "skeletal",
+  "conceptId": "UBERON:0003690"
+ },
+ "VH_F_coccyx": {
+  "name": "coccyx",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001350"
+ },
+ "VH_F_ilium_compact_bone_R": {
+  "name": "compact bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001439"
+ },
+ "VH_F_ilium_compact_bone_L": {
+  "name": "compact bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001439"
+ },
+ "VH_F_ilium_spongy_bone_L": {
+  "name": "trabecular bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0002483"
+ },
+ "VH_F_ilium_spongy_bone_R": {
+  "name": "trabecular bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0002483"
+ },
+ "VH_F_thoracic_vertebra_1": {
+  "name": "thoracic vertebra 1",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004626"
+ },
+ "VH_F_thoracic_vertebra_2": {
+  "name": "thoracic vertebra 2",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004627"
+ },
+ "VH_F_thoracic_vertebra_3": {
+  "name": "thoracic vertebra 3",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004628"
+ },
+ "VH_F_thoracic_vertebra_4": {
+  "name": "thoracic vertebra 4",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004629"
+ },
+ "VH_F_thoracic_vertebra_5": {
+  "name": "thoracic vertebra 5",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004630"
+ },
+ "VH_F_thoracic_vertebra_6": {
+  "name": "thoracic vertebra 6",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004631"
+ },
+ "VH_F_thoracic_vertebra_7": {
+  "name": "thoracic vertebra 7",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004632"
+ },
+ "VH_F_thoracic_vertebra_8": {
+  "name": "thoracic vertebra 8",
+  "system": "skeletal",
+  "conceptId": "UBERON:0011050"
+ },
+ "VH_F_thoracic_vertebra_9": {
+  "name": "thoracic vertebra 9",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004633"
+ },
+ "VH_F_thoracic_vertebra_10": {
+  "name": "thoracic vertebra 10",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004634"
+ },
+ "VH_F_thoracic_vertebra_11": {
+  "name": "thoracic vertebra 11",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004635"
+ },
+ "VH_F_thoracic_vertebra_12": {
+  "name": "thoracic vertebra 12",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004636"
+ },
+ "VH_F_cervical_vertebra_1": {
+  "name": "vertebral bone 1",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001092"
+ },
+ "VH_F_cervical_vertebra_2": {
+  "name": "vertebral bone 2",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001093"
+ },
+ "VH_F_cervical_vertebra_3": {
+  "name": "mammalian cervical vertebra 3",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004612"
+ },
+ "VH_F_cervical_vertebra_4": {
+  "name": "mammalian cervical vertebra 4",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004613"
+ },
+ "VH_F_cervical_vertebra_5": {
+  "name": "mammalian cervical vertebra 5",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004614"
+ },
+ "VH_F_cervical_vertebra_6": {
+  "name": "mammalian cervical vertebra 6",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004615"
+ },
+ "VH_F_cervical_vertebra_7": {
+  "name": "mammalian cervical vertebra 7",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004616"
+ },
+ "VH_F_lumbar_vertebra_6": {
+  "name": "lumbar vertebra 6",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_lumbar_vertebra_6"
+ },
+ "VH_F_lumbar_vertebra_5": {
+  "name": "lumbar vertebra 5",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004621"
+ },
+ "VH_F_lumbar_vertebra_4": {
+  "name": "lumbar vertebra 4",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004620"
+ },
+ "VH_F_lumbar_vertebra_3": {
+  "name": "lumbar vertebra 3",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004619"
+ },
+ "VH_F_lumbar_vertebra_2": {
+  "name": "lumbar vertebra 2",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004618"
+ },
+ "VH_F_lumbar_vertebra_1": {
+  "name": "lumbar vertebra 1",
+  "system": "skeletal",
+  "conceptId": "UBERON:0004617"
+ },
+ "VH_F_intervertebral_disk_of_axis": {
+  "name": "intervertebral disk of axis",
+  "system": "connective",
+  "conceptId": "UBERON:0007265"
+ },
+ "VH_F_intervertebral_disk_of_third_cervical_vertebra": {
+  "name": "intervertebral disk of third cervical vertebra",
+  "system": "connective",
+  "conceptId": "UBERON:0007260"
+ },
+ "VH_F_intervertebral_disk_of_fourth_cervical_vertebra": {
+  "name": "intervertebral disk of fourth cervical vertebra",
+  "system": "connective",
+  "conceptId": "UBERON:0007261"
+ },
+ "VH_F_intervertebral_disk_of_fifth_cervical_vertebra": {
+  "name": "intervertebral disk of fifth cervical vertebra",
+  "system": "connective",
+  "conceptId": "UBERON:0007262"
+ },
+ "VH_F_intervertebral_disk_of_sixth_cervical_vertebra": {
+  "name": "intervertebral disk of sixth cervical vertebra",
+  "system": "connective",
+  "conceptId": "UBERON:0007263"
+ },
+ "VH_F_intervertebral_disk_of_seventh_cervical_vertebra": {
+  "name": "intervertebral disk of seventh cervical vertebra",
+  "system": "connective",
+  "conceptId": "UBERON:0007264"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_axis": {
+  "name": "nucleus pulposus of intervertebral disk of axis",
+  "system": "connective",
+  "conceptId": "FMA:24926"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_cervical_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of third cervical vertebra",
+  "system": "connective",
+  "conceptId": "FMA:24927"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_cervical_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of fourth cervical vertebra",
+  "system": "connective",
+  "conceptId": "FMA:24928"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_cervical_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of fifth cervical vertebra",
+  "system": "connective",
+  "conceptId": "FMA:24929"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_cervical_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of sixth cervical vertebra",
+  "system": "connective",
+  "conceptId": "FMA:24930"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_seventh_cervical_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of seventh cervical vertebra",
+  "system": "connective",
+  "conceptId": "FMA:24931"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_first_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of first thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:10459"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_second_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of second thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13497"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of third thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13510"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of fourth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13511"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of fifth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13512"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of sixth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13513"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_seventh_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of seventh thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13514"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_eighth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of eighth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13515"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_ninth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of ninth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13516"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_tenth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of tenth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13517"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_eleventh_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of eleventh thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13518"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_twelfth_thoracic_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of twelfth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13519"
+ },
+ "VH_F_intervertebral_disk_of_first_thoracic_vertebra": {
+  "name": "intervertebral disk of first thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:10458"
+ },
+ "VH_F_intervertebral_disk_of_second_thoracic_vertebra": {
+  "name": "intervertebral disk of second thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13495"
+ },
+ "VH_F_intervertebral_disk_of_third_thoracic_vertebra": {
+  "name": "intervertebral disk of third thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13500"
+ },
+ "VH_F_intervertebral_disk_of_fourth_thoracic_vertebra": {
+  "name": "intervertebral disk of fourth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13501"
+ },
+ "VH_F_intervertebral_disk_of_fifth_thoracic_vertebra": {
+  "name": "intervertebral disk of fifth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13502"
+ },
+ "VH_F_intervertebral_disk_of_sixth_thoracic_vertebra": {
+  "name": "intervertebral disk of sixth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13503"
+ },
+ "VH_F_intervertebral_disk_of_seventh_thoracic_vertebra": {
+  "name": "intervertebral disk of seventh thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13504"
+ },
+ "VH_F_intervertebral_disk_of_eighth_thoracic_vertebra": {
+  "name": "intervertebral disk of eighth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13505"
+ },
+ "VH_F_intervertebral_disk_of_ninth_thoracic_vertebra": {
+  "name": "intervertebral disk of ninth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13506"
+ },
+ "VH_F_intervertebral_disk_of_tenth_thoracic_vertebra": {
+  "name": "intervertebral disk of tenth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13507"
+ },
+ "VH_F_intervertebral_disk_of_eleventh_thoracic_vertebra": {
+  "name": "intervertebral disk of eleventh thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13508"
+ },
+ "VH_F_intervertebral_disk_of_twelfth_thoracic_vertebra": {
+  "name": "intervertebral disk of twelfth thoracic vertebra",
+  "system": "connective",
+  "conceptId": "FMA:13509"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_first_lumbar_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of first lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16063"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_second_lumbar_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of second lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16064"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_lumbar_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of third lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16065"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_lumbar_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of fourth lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16066"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_lumbar_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of fifth lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16067"
+ },
+ "VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_lumbar_vertebra": {
+  "name": "nucleus pulposus of intervertebral disk of sixth lumbar vertebra",
+  "system": "connective",
+  "conceptId": "HRA:VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_lumbar_vertebra"
+ },
+ "VH_F_intervertebral_disk_of_first_lumbar_vertebra": {
+  "name": "intervertebral disk of first lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16033"
+ },
+ "VH_F_intervertebral_disk_of_second_lumbar_vertebra": {
+  "name": "intervertebral disk of second lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16034"
+ },
+ "VH_F_intervertebral_disk_of_third_lumbar_vertebra": {
+  "name": "intervertebral disk of third lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16035"
+ },
+ "VH_F_intervertebral_disk_of_fourth_lumbar_vertebra": {
+  "name": "intervertebral disk of fourth lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16036"
+ },
+ "VH_F_intervertebral_disk_of_fifth_lumbar_vertebra": {
+  "name": "intervertebral disk of fifth lumbar vertebra",
+  "system": "connective",
+  "conceptId": "FMA:16037"
+ },
+ "VH_F_intervertebral_disk_of_sixth_lumbar_vertebra": {
+  "name": "intervertebral disk of sixth lumbar vertebra",
+  "system": "connective",
+  "conceptId": "UBERON:0007255"
+ },
+ "VH_F_right_tibial_collateral_ligament": {
+  "name": "Right tibial collateral ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44601"
+ },
+ "VH_F_anterior_cruciate_ligament_of_knee_R": {
+  "name": "Right anterior cruciate ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44615"
+ },
+ "VH_F_posterior_cruciate_ligament_of_knee_R": {
+  "name": "Right posterior cruciate ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44618"
+ },
+ "VH_F_anterolateral_ligament_of_knee_R": {
+  "name": "anterolateral ligament of knee",
+  "system": "skeletal",
+  "conceptId": "UBERON:0014899"
+ },
+ "VH_F_fibular_collateral_ligament_R": {
+  "name": "Right fibular collateral ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44609"
+ },
+ "VH_F_patellar_ligament_R": {
+  "name": "Right patellar ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44585"
+ },
+ "VH_F_meniscus_R": {
+  "name": "Articular disk of knee joint",
+  "system": "skeletal",
+  "conceptId": "FMA64019"
+ },
+ "VH_F_femur_R": {
+  "name": "Right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:24474"
+ },
+ "VH_F_trochlear_groove_R": {
+  "name": "Patellar surface of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:43746"
+ },
+ "VH_F_medial_perichondular_surface_R": {
+  "name": "medial perichondular surface (right)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_medial_perichondular_surface_R"
+ },
+ "VH_F_articular_cartilage_of_knee_R": {
+  "name": "Articular cartilage of distal epiphysis of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:33189"
+ },
+ "VH_F_medial_condyle_of_right_femur_sup": {
+  "name": "Medial condyle of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32862"
+ },
+ "VH_F_lateral_condyle_of_femur_sup_R": {
+  "name": "Lateral condyle of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32860"
+ },
+ "VH_F_medial_condyle_of_right_femur_inf": {
+  "name": "Medial condyle of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32862"
+ },
+ "VH_F_lateral_condyle_of_femur_inf_R": {
+  "name": "Lateral condyle of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32860"
+ },
+ "VH_F_lateral_condyle_of_femur_frontal_R": {
+  "name": "Lateral condyle of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32860"
+ },
+ "VH_F_distal_most_point_of_medial_condyle_R": {
+  "name": "distal-most point of medial condyle of femur",
+  "system": "skeletal",
+  "conceptId": "UBERON:7500033"
+ },
+ "VH_F_intercondylar_fossa_R": {
+  "name": "Intercondylar fossa of right femur",
+  "system": "skeletal",
+  "conceptId": "FMA:43749"
+ },
+ "VH_F_posterior_cruciate_enthesis_R": {
+  "name": "posterior cruciate enthesis (right)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_posterior_cruciate_enthesis_R"
+ },
+ "VH_F_anterior_cruciate_enthesis_R": {
+  "name": "anterior cruciate enthesis (right)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_anterior_cruciate_enthesis_R"
+ },
+ "VH_F_lateral_perichondular_surface_R": {
+  "name": "lateral perichondular surface (right)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_lateral_perichondular_surface_R"
+ },
+ "VH_F_lateral_epicondylar_enthesis_R": {
+  "name": "lateral epicondylar enthesis (right)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_lateral_epicondylar_enthesis_R"
+ },
+ "VH_F_medial_epicondylar_enthesis_R": {
+  "name": "medial epicondylar enthesis (right)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_medial_epicondylar_enthesis_R"
+ },
+ "VH_F_tibia_R": {
+  "name": "Right tibia",
+  "system": "skeletal",
+  "conceptId": "FMA:24477"
+ },
+ "VH_F_fibula_R": {
+  "name": "Right fibula",
+  "system": "skeletal",
+  "conceptId": "FMA:24480"
+ },
+ "VH_F_patella_R": {
+  "name": "Right patella",
+  "system": "skeletal",
+  "conceptId": "FMA:24486"
+ },
+ "VH_F_anterolateral_ligament_of_knee_L": {
+  "name": "anterolateral ligament of knee",
+  "system": "skeletal",
+  "conceptId": "UBERON:0014899"
+ },
+ "VH_F_fibular_collateral_ligament_L": {
+  "name": "Left fibular collateral ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44610"
+ },
+ "VH_F_patellar_ligament_L": {
+  "name": "Left patellar ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44586"
+ },
+ "VH_F_left_tibial_collateral_ligament": {
+  "name": "Left tibial collateral ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44602"
+ },
+ "VH_F_anterior_cruciate_ligament_of_knee_L": {
+  "name": "Left anterior cruciate ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44616"
+ },
+ "VH_F_posterior_cruciate_ligament_of_knee_L": {
+  "name": "Left posterior cruciate ligament",
+  "system": "skeletal",
+  "conceptId": "FMA:44619"
+ },
+ "VH_F_meniscus_L": {
+  "name": "Articular disk of knee joint",
+  "system": "skeletal",
+  "conceptId": "FMA64019"
+ },
+ "VH_F_femur_L": {
+  "name": "Left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:24475"
+ },
+ "VH_F_intercondylar_fossa_L": {
+  "name": "Intercondylar fossa of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:43750"
+ },
+ "VH_F_anterior_cruciate_enthesis_L": {
+  "name": "anterior cruciate enthesis (left)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_anterior_cruciate_enthesis_L"
+ },
+ "VH_F_posterior_cruciate_enthesis_L": {
+  "name": "posterior cruciate enthesis (left)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_posterior_cruciate_enthesis_L"
+ },
+ "VH_F_lateral_perichondular_surface_L": {
+  "name": "lateral perichondular surface (left)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_lateral_perichondular_surface_L"
+ },
+ "VH_F_lateral_epicondylar_enthesis_L": {
+  "name": "lateral epicondylar enthesis (left)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_lateral_epicondylar_enthesis_L"
+ },
+ "VH_F_medial_epicondylar_enthesis_L": {
+  "name": "medial epicondylar enthesis (left)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_medial_epicondylar_enthesis_L"
+ },
+ "VH_F_trochlear_groove_L": {
+  "name": "Patellar surface of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:43747"
+ },
+ "VH_F_medial_perichondular_surface_L": {
+  "name": "medial perichondular surface (left)",
+  "system": "skeletal",
+  "conceptId": "HRA:VH_F_medial_perichondular_surface_L"
+ },
+ "VH_F_articular_cartilage_of_knee_L": {
+  "name": "Articular cartilage of distal epiphysis of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:33190"
+ },
+ "VH_F_medial_condyle_of_left_femur_inf": {
+  "name": "Medial condyle of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32863"
+ },
+ "VH_F_lateral_condyle_of_femur_inf_L": {
+  "name": "Lateral condyle of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32861"
+ },
+ "VH_F_lateral_condyle_of_femur_frontal_L": {
+  "name": "Lateral condyle of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32861"
+ },
+ "VH_F_distal_most_point_of_medial_condyle_L": {
+  "name": "distal-most point of medial condyle of femur",
+  "system": "skeletal",
+  "conceptId": "UBERON:7500033"
+ },
+ "VH_F_lateral_condyle_of_femur_sup_L": {
+  "name": "Lateral condyle of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32861"
+ },
+ "VH_F_medial_condyle_of_left_femur_sup": {
+  "name": "Medial condyle of left femur",
+  "system": "skeletal",
+  "conceptId": "FMA:32863"
+ },
+ "VH_F_patella_L": {
+  "name": "Left patella",
+  "system": "skeletal",
+  "conceptId": "FMA:24487"
+ },
+ "VH_F_tibia_L": {
+  "name": "Left tibia",
+  "system": "skeletal",
+  "conceptId": "FMA:24478"
+ },
+ "VH_F_fibula_L": {
+  "name": "Left fibula",
+  "system": "skeletal",
+  "conceptId": "FMA:24481"
+ },
+ "VH_F_pubis_spongy_bone_L": {
+  "name": "trabecular bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0002483"
+ },
+ "VH_F_pubis_spongy_bone_R": {
+  "name": "trabecular bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0002483"
+ },
+ "VH_F_pubis_compact_bone_R": {
+  "name": "compact bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001439"
+ },
+ "VH_F_pubis_compact_bone_L": {
+  "name": "compact bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001439"
+ },
+ "VH_F_ischium_compact_bone_R": {
+  "name": "compact bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001439"
+ },
+ "VH_F_ischium_compact_bone_L": {
+  "name": "compact bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0001439"
+ },
+ "VH_F_ischium_spongy_bone_R": {
+  "name": "trabecular bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0002483"
+ },
+ "VH_F_ischium_spongy_bone_L": {
+  "name": "trabecular bone tissue",
+  "system": "skeletal",
+  "conceptId": "UBERON:0002483"
+ }
+}
