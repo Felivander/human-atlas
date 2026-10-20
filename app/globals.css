@@ -86,3 +86,25 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 @media(max-width:767px){body:has(.detail-sheet) .view-controls{visibility:hidden}}
 
 @media(max-height:600px) and (orientation:landscape){body:has(.detail-sheet) .bottom-dock{left:12px;right:324px;width:auto;transform:none;max-width:none;margin:0}}
+
+/* Language selector and first-run tutorial. */
+.flag{display:inline-flex;width:22px;height:15px;border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px #18253620}.flag svg{width:100%;height:100%;display:block}
+.lang-switch{display:flex;gap:2px;padding:3px;border:1px solid var(--border);border-radius:10px;background:#ffffffd9}
+.top-actions .lang-switch button{height:34px;width:38px;min-width:38px;padding:0;border:0;border-radius:7px;background:none;justify-content:center;opacity:.45;filter:saturate(.6)}
+.top-actions .lang-switch button.active{opacity:1;filter:none;background:#edf1f3}.top-actions .lang-switch button:hover{opacity:1;background:#f4f6f7}
+.top-actions .lang-toggle{display:none}
+.studio-footer .footer-links{display:flex;gap:18px;align-items:center}
+.tutorial{max-width:min(400px,calc(100% - 32px))!important;padding:22px 24px 20px!important;gap:12px!important;border-radius:18px!important;background:#fffffff5!important;color:#26313c}
+.tutorial-top{display:flex;align-items:center;justify-content:space-between;margin:-6px -10px 2px 0}.tutorial-skip{font-size:12px;color:#73808c;padding:0 10px;min-height:36px}
+.tutorial-icon{width:44px;height:44px;border-radius:12px;background:#edf1f3;color:#263b48;display:flex;align-items:center;justify-content:center}
+.tutorial-title{font-size:20px!important;font-weight:600!important;letter-spacing:-.4px;line-height:1.25!important}
+.tutorial-body{font-size:14px!important;line-height:1.65;color:#5f6c79!important;min-height:4.95em}
+.tutorial-dots{display:flex;gap:6px;padding:4px 0}.tutorial-dots button{width:7px;height:7px;padding:0;border-radius:4px;background:#18253622!important;transition:width .2s,background .2s}.tutorial-dots button.active{width:20px;background:#263b48!important}
+.tutorial-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:4px}.tutorial-back{font-size:13px;color:#687683;min-height:44px;gap:4px;padding:0 8px 0 2px}
+.tutorial .tutorial-next{background:#263b48;color:#fff;border:0;min-height:44px;padding:0 16px;font-size:13px;width:auto}.tutorial .tutorial-next svg:last-child{margin-left:2px}
+@media(max-width:767px){
+ .top-actions .lang-switch{display:none}.top-actions .lang-toggle{display:inline-flex}.top-actions .lang-toggle .flag{display:inline-flex}
+ .studio-footer .footer-links{gap:22px}.studio-footer .footer-links button{min-height:32px}
+ .tutorial-dots button{position:relative}.tutorial-dots button::after{content:'';position:absolute;inset:-12px -4px}
+}
+@media(max-height:600px) and (orientation:landscape){.top-actions .lang-switch{display:none}.top-actions .lang-toggle{display:inline-flex}.tutorial{max-height:calc(100dvh - 24px);overflow-y:auto}.tutorial-body{min-height:0}}
