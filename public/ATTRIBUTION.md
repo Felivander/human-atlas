@@ -27,3 +27,14 @@ Kristen Browne and Heidi Schlehlein, Human Reference Atlas / HuBMAP, *3D Referen
 Adaptations: translated native meter/Y-up coordinates onto the stage, coincident vertices welded and source normals averaged, geometry simplified with a 0.2% per-structure relative error bound, and normals quantized. Colors and display systems are curated for this interface. All 888 source meshes are represented, with 1,073 source nodes available as selectable individual or compound concepts.
 
 This is a reference assembly with whole-body surface and selected organs, including female reproductive anatomy. Its skeleton and muscle coverage is partial. It is not a complete model of every human structure or a single-person scan. Eight placenta/umbilical structures are classified under Pregnancy reference and hidden by default.
+
+## Optional extra-detail layer (male model) · CC BY-SA 4.0
+
+Adapted from **Z-Anatomy – The libre 3D atlas of anatomy** (Gauthier Kervyn, Marcin Zielinski and contributors), CC BY-SA 4.0, itself derived from **BodyParts3D – The Database Center for Life Science**. Spanish structure names come from Z-Anatomy's TA2 terminology table (Spanish translation by Carlos Torres Villar).
+
+- Source: https://github.com/Z-Anatomy/Models-of-human-anatomy (`Z-Anatomy.zip` → `Startup.blend`, `TA2.csv`)
+- License: https://creativecommons.org/licenses/by-sa/4.0/
+
+**Files under CC BY-SA 4.0:** `models/atlas-zanatomy.json` and `models/zanatomy-*.bin` (and their `.gz` copies). These files, and any adaptation of them, must be shared under the same license. The rest of this project's anatomy data stays under CC BY 4.0 and its code under MIT.
+
+Adaptations: only structure families missing from BodyParts3D were kept (lymph nodes; ligaments, joint capsules, menisci, nuclei pulposi; bursae, tendon sheaths, fasciae and retinacula; peripheral and cranial nerves; facial, masticatory, abdominal-wall and some deep back muscles; parotid gland and salivary ducts). Each piece was moved onto the BodyParts3D skeleton with a smooth bone-anchored warp (187 matching bones), curve-based nerves were rebuilt as tubes, normals were recomputed, geometry was simplified with a 0.2% per-structure relative error bound, and a few missing Spanish names were translated for this viewer. Z-Anatomy's non-commercial pieces (inner ear, CC BY-NC-SA; kidney, CC BY-NC) and its Wikipedia definitions are not included. Most left/right pairs in Z-Anatomy are mirror copies of one side.

@@ -131,3 +131,5 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 }
 @media(max-width:767px){body:has(.detail-sheet) .anatomy-choice{display:none}}
 @media(max-height:600px) and (orientation:landscape){body:has(.detail-sheet) .anatomy-choice{display:none}}
+/* Optional Z-Anatomy layer toggle under the systems list. */
+.extra-row{border-top:1px solid #18253612;padding-top:4px}.extra-row .system-name{white-space:normal;padding:6px 5px;min-height:44px}.extra-copy{display:flex;flex-direction:column;gap:2px;min-width:0;line-height:1.3}.extra-copy small{font-size:10px;color:#87929d}

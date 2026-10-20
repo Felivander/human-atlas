@@ -1,11 +1,16 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const filename=process.argv[2]??'atlas.json',female=filename.includes('female');
+const filename=process.argv[2]??'atlas.json',female=filename.includes('female'),extra=filename.includes('zanatomy');
 const base=new URL('../public/models/',import.meta.url),atlas=JSON.parse(fs.readFileSync(new URL(filename,base)));
-assert.equal(atlas.parts.length,female?888:2234);assert.equal(atlas.concepts.length,female?1073:3432);
-const ids=new Set(atlas.parts.map(p=>p.id));assert.equal(ids.size,female?888:2234);
+const ids=new Set(atlas.parts.map(p=>p.id));
+if(extra){
+ // Optional CC BY-SA layer: ids must not collide with BodyParts3D and non-commercial sources stay out.
+ assert.equal(atlas.license,'CC BY-SA 4.0');assert.equal(ids.size,atlas.parts.length);assert.ok(atlas.parts.length>0);
+ const base=JSON.parse(fs.readFileSync(new URL('atlas.json',new URL('../public/models/',import.meta.url))));for(const p of base.parts)assert.ok(!ids.has(p.id),`id collision: ${p.id}`);
+ for(const p of atlas.parts){assert.ok(p.id.startsWith('ZA:'));assert.equal(p.source,'zanatomy');assert.ok(!/cochle|labyrinth|semicircular|kidney|renal/i.test(p.name),`non-commercial source: ${p.name}`);}
+}else{assert.equal(atlas.parts.length,female?888:2234);assert.equal(atlas.concepts.length,female?1073:3432);assert.equal(ids.size,female?888:2234);}
 if(female){assert.equal(atlas.parts.filter(p=>p.system==='pregnancy').length,8);for(const label of ['uterus','ovary','vagina'])assert.ok(atlas.parts.some(p=>p.name.toLowerCase().includes(label)));assert.ok(!atlas.parts.some(p=>/prostate|testis|penis/i.test(p.name)));}
-const namesEs=JSON.parse(fs.readFileSync(new URL('../app/names-es.json',import.meta.url)));
+const namesEs=extra?atlas.namesEs:JSON.parse(fs.readFileSync(new URL('../app/names-es.json',import.meta.url)));
 for(const x of [...atlas.parts,...atlas.concepts])assert.ok(namesEs[x.name.trim().toLowerCase()],`missing Spanish name: ${x.name}`);
 const files=atlas.chunks.map(c=>{const b=fs.readFileSync(new URL(c.url.split('/').pop(),base));assert.equal(b.length,c.bytes);return b;});
 let tris=0;

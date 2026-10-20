@@ -18,9 +18,14 @@ export const SYSTEMS: {id:SystemId;name:string;color:string;description:string}[
  {id:'pregnancy',name:'Pregnancy reference',color:'#b88380',description:'The placenta and umbilical cord support exchange between maternal and fetal circulations during pregnancy. These reference structures are shown separately from the default adult anatomy.'},
  {id:'connective',name:'Connective tissue',color:'#aec3bb',description:'Cartilage, ligaments, and other connective tissues support, connect, and separate structures. Their roles include stabilizing joints and distributing mechanical loads.'},
 ];
-export interface Part {id:string;name:string;conceptId:string;system:SystemId;chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
+export interface Part {id:string;name:string;conceptId:string;system:SystemId;source?:'zanatomy';chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
 export interface Concept {id:string;name:string;elements:string[]}
-export interface Atlas {version:string;sex?:AnatomySex;source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
+export interface Atlas {version:string;sex?:AnatomySex;source?:string;scope?:string;license?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number;namesEs?:Record<string,string>}
+/** Appends the optional Z-Anatomy layer (CC BY-SA 4.0) to the male atlas; its chunk indexes follow the base chunks. */
+export function withExtra(base:Atlas,extra:Atlas):Atlas{
+ const offset=base.chunks.length;
+ return {...base,parts:[...base.parts,...extra.parts.map(p=>({...p,chunk:p.chunk+offset}))],concepts:[...base.concepts,...extra.concepts],chunks:[...base.chunks,...extra.chunks],triangles:base.triangles+extra.triangles,namesEs:extra.namesEs};
+}
 export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
