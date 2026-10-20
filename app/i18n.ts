@@ -19,7 +19,7 @@ const en={
  selectedStructure:'SELECTED STRUCTURE',inventory:'ANATOMICAL INVENTORY',separated:'SEPARATED STRUCTURES',adultMale:'ADULT HUMAN · MALE',
  openLayers:'Open system layers',explode:'Explode anatomy',assembled:'Assembled',everyPiece:'Every piece',assembleReset:'Assemble and reset',
  dragPan:'Drag to pan',dragOrbit:'Drag to orbit',pinch:'Pinch to zoom',tap:'Tap to inspect',credits:'Source & credits',
- preparing:'Preparing the anatomy',loading:'Loading',reload:'Reload viewer',
+ canvasLabel:'Interactive human anatomy. Drag to orbit, pinch or scroll to zoom, and tap a structure to inspect it.',preparing:'Preparing the anatomy',loading:'Loading',reload:'Reload viewer',
  anatomy:'ANATOMY',contextNote:'System overview · structure identified from source anatomy',atlasRef:'Atlas reference',selectedPieces:'Selected pieces',
  included:'Included structures',andMore:(n:number)=>`And ${n} more modeled pieces.`,viewSource:'View anatomical source',
  showSurrounding:'Show surrounding anatomy',isolate:'Isolate structure',clearSelection:'Clear selection',
@@ -45,7 +45,7 @@ const es:Strings={
  selectedStructure:'ESTRUCTURA SELECCIONADA',inventory:'INVENTARIO ANATÓMICO',separated:'ESTRUCTURAS SEPARADAS',adultMale:'HUMANO ADULTO · MASCULINO',
  openLayers:'Abrir capas de sistemas',explode:'Separar anatomía',assembled:'Ensamblado',everyPiece:'Cada pieza',assembleReset:'Ensamblar y restablecer',
  dragPan:'Arrastrar para desplazar',dragOrbit:'Arrastrar para orbitar',pinch:'Pellizcar para hacer zoom',tap:'Tocar para inspeccionar',credits:'Fuente y créditos',
- preparing:'Preparando la anatomía',loading:'Cargando',reload:'Recargar visor',
+ canvasLabel:'Anatomía humana interactiva. Arrastrar para orbitar, pellizcar o usar la rueda para hacer zoom y tocar una estructura para inspeccionarla.',preparing:'Preparando la anatomía',loading:'Cargando',reload:'Recargar visor',
  anatomy:'ANATOMÍA',contextNote:'Resumen del sistema · estructura identificada en la anatomía de origen',atlasRef:'Referencia del atlas',selectedPieces:'Piezas seleccionadas',
  included:'Estructuras incluidas',andMore:n=>`Y ${n} piezas modeladas más.`,viewSource:'Ver fuente anatómica',
  showSurrounding:'Mostrar anatomía circundante',isolate:'Aislar estructura',clearSelection:'Quitar selección',
@@ -97,17 +97,11 @@ export const EXPLANATIONS_ES:Record<string,string>={
  'trachea':'La vía aérea principal que une la laringe con los bronquios. Sus anillos de cartílago mantienen la vía abierta durante la respiración.',
  'diaphragm':'Un músculo amplio que separa el tórax del abdomen. Al contraerse aumenta el volumen del tórax y ayuda a que el aire entre en los pulmones.',
 };
-/** Spanish names for common structures; the rest of the catalogue keeps its source (English) name. */
-export const NAMES_ES:Record<string,string>={
- 'heart':'corazón','brain':'encéfalo','liver':'hígado','stomach':'estómago','spleen':'bazo','pancreas':'páncreas','urinary bladder':'vejiga urinaria','trachea':'tráquea','diaphragm':'diafragma','esophagus':'esófago',
- 'kidney':'riñón','right kidney':'riñón derecho','left kidney':'riñón izquierdo','right lung':'pulmón derecho','left lung':'pulmón izquierdo',
- 'femur':'fémur','right femur':'fémur derecho','left femur':'fémur izquierdo','tibia':'tibia','fibula':'peroné','humerus':'húmero','radius':'radio','ulna':'cúbito','skull':'cráneo','mandible':'mandíbula','sternum':'esternón','sacrum':'sacro',
- 'hip bone':'hueso coxal','right hip bone':'hueso coxal derecho','scapula':'escápula','clavicle':'clavícula','patella':'rótula','vertebral column':'columna vertebral','spinal cord':'médula espinal','cerebellum':'cerebelo','brainstem':'tronco encefálico',
- 'small intestine':'intestino delgado','large intestine':'intestino grueso','duodenum':'duodeno','jejunum':'yeyuno','ileum':'íleon','rectum':'recto','cecum':'ciego','gallbladder':'vesícula biliar','aorta':'aorta',
- 'prostate':'próstata','testis':'testículo','right eyeball':'globo ocular derecho','tongue':'lengua','ureter':'uréter','urethra':'uretra','skin':'piel','thymus':'timo','rib':'costilla',
- 'skeletal system':'sistema esquelético','gastrointestinal tract':'tubo digestivo',
-};
-export function structureName(name:string,lang:Lang){return lang==='es'?NAMES_ES[name.toLowerCase()]??name:name;}
+/** Spanish names for every structure in both atlases, keyed by lowercase source name. Loaded on demand as its own chunk. */
+export type NameMap=Record<string,string>;
+let namesEs:Promise<NameMap>|null=null;
+export function loadNamesEs(){return namesEs??=import('./names-es.json').then(m=>m.default as NameMap);}
+export function structureName(name:string,lang:Lang,names:NameMap|null){return lang==='es'?names?.[name.trim().toLowerCase()]??name:name;}
 
 export interface TutorialStep {title:string;body:string;touch?:string}
 export const TUTORIAL:Record<Lang,{open:string;label:string;skip:string;back:string;next:string;done:string;step:(i:number,n:number)=>string;steps:TutorialStep[]}>={

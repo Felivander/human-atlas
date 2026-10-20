@@ -108,3 +108,12 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
  .tutorial-dots button{position:relative}.tutorial-dots button::after{content:'';position:absolute;inset:-12px -4px}
 }
 @media(max-height:600px) and (orientation:landscape){.top-actions .lang-switch{display:none}.top-actions .lang-toggle{display:inline-flex}.tutorial{max-height:calc(100dvh - 24px);overflow-y:auto}.tutorial-body{min-height:0}}
+
+/* Base UI marks orientation with data-orientation, which the slider's data-horizontal utilities miss. */
+[data-slot=slider-track][data-orientation=horizontal]{height:4px;width:100%}
+[data-slot=slider-range][data-orientation=horizontal]{height:100%}
+
+/* Sentence case reads correctly in Spanish ("rama de la arteria"), unlike per-word capitalize. */
+.structure-title,.search-result-name,.part-hover{text-transform:none}
+.structure-title::first-letter,.search-result-name::first-letter,.part-hover::first-letter{text-transform:uppercase}
+.part-hover{display:block}

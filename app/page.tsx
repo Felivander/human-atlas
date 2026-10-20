@@ -11,16 +11,16 @@ import {Combobox,ComboboxInput,ComboboxContent,ComboboxList,ComboboxItem,Combobo
 import AnatomyScene from './scene';
 import {Flag} from './flags';
 import Tutorial,{tutorialSeen} from './tutorial';
-import {LANGS,STRINGS,SYSTEMS_ES,EXPLANATIONS_ES,TUTORIAL,initialLang,saveLang,structureName,translateError,type Lang} from './i18n';
+import {LANGS,STRINGS,SYSTEMS_ES,EXPLANATIONS_ES,TUTORIAL,initialLang,saveLang,loadNamesEs,structureName,translateError,type Lang,type NameMap} from './i18n';
 import {DEFAULT_VISIBLE,SYSTEMS,EXPLANATIONS,explanation,type Atlas,type Concept,type SceneState,type SystemId,type View} from './anatomy';
 const fold=(text:string)=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
 const initial:SceneState={explode:0,visible:DEFAULT_VISIBLE,selected:[],isolate:false,view:'three-quarter',rotate:false,reset:0};
 export default function Home(){
  const detailTitle=useRef<HTMLHeadingElement>(null);
- const [atlas,setAtlas]=useState<Atlas|null>(null),[state,setState]=useState(initial),[progress,setProgress]=useState(0),[error,setError]=useState(''),[panel,setPanel]=useState<'layers'|'search'|null>(null),[details,setDetails]=useState(false),[about,setAbout]=useState(false),[query,setQuery]=useState(''),[chosen,setChosen]=useState<Concept|null>(null),[lang,setLang]=useState<Lang>(initialLang),[tour,setTour]=useState(()=>!tutorialSeen());
- const t=STRINGS[lang],nameOf=(name:string)=>structureName(name,lang),systemName=(s:{id:SystemId;name:string})=>lang==='es'?SYSTEMS_ES[s.id].name:s.name;
+ const [atlas,setAtlas]=useState<Atlas|null>(null),[state,setState]=useState(initial),[progress,setProgress]=useState(0),[error,setError]=useState(''),[panel,setPanel]=useState<'layers'|'search'|null>(null),[details,setDetails]=useState(false),[about,setAbout]=useState(false),[query,setQuery]=useState(''),[chosen,setChosen]=useState<Concept|null>(null),[lang,setLang]=useState<Lang>(initialLang),[tour,setTour]=useState(()=>!tutorialSeen()),[names,setNames]=useState<NameMap|null>(null);
+ const t=STRINGS[lang],nameOf=(name:string)=>structureName(name,lang,names),systemName=(s:{id:SystemId;name:string})=>lang==='es'?SYSTEMS_ES[s.id].name:s.name;
  const describe=(name:string,id:SystemId)=>lang==='es'?EXPLANATIONS_ES[name.toLowerCase()]??SYSTEMS_ES[id].description:explanation(name,id);
- useEffect(()=>{document.documentElement.lang=lang;saveLang(lang);},[lang]);
+ useEffect(()=>{document.documentElement.lang=lang;saveLang(lang);if(lang==='es')loadNamesEs().then(setNames).catch(()=>{/* Names fall back to the source catalogue. */});},[lang]);
  useEffect(()=>{const abort=new AbortController();setProgress(0);setError('');setAtlas(null);setChosen(null);setDetails(false);setState({...initial,visible:DEFAULT_VISIBLE});fetch('/models/atlas.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>setAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[]);
  useEffect(()=>{const key=(e:KeyboardEvent)=>{if(e.key==='/'&&!(e.target instanceof HTMLInputElement)&&!(e.target instanceof HTMLTextAreaElement)){e.preventDefault();setPanel('search');setDetails(false);}};window.addEventListener('keydown',key);return()=>window.removeEventListener('keydown',key);},[]);
  const parts=useMemo(()=>new Map(atlas?.parts.map(p=>[p.id,p])),[atlas]);
@@ -28,7 +28,7 @@ export default function Home(){
  const activeSystems=SYSTEMS.filter(s=>counts[s.id]>0);
  const selectedParts=state.selected.map(id=>parts.get(id)).filter(p=>!!p),selected=selectedParts[0],system=SYSTEMS.find(s=>s.id===selected?.system);
  const visibleCount=atlas?.parts.filter(p=>state.isolate?state.selected.includes(p.id):state.visible.includes(p.system)||state.selected.includes(p.id)).length??0;
- const results=useMemo(()=>{if(!atlas)return[];const term=fold(query);if(!term)return ['heart','brain','liver','stomach','spleen','pancreas','urinary bladder','trachea'].map(name=>atlas.concepts.find(c=>c.name.toLowerCase()===name)).filter((x):x is Concept=>!!x);const label=(c:Concept)=>fold(structureName(c.name,lang));return atlas.concepts.filter(c=>label(c).includes(term)||c.name.toLowerCase().includes(term)||c.id.toLowerCase().includes(term)).sort((a,b)=>label(a).length-label(b).length).slice(0,80);},[atlas,query,lang]);
+ const results=useMemo(()=>{if(!atlas)return[];const term=fold(query);if(!term)return ['heart','brain','liver','stomach','spleen','pancreas','urinary bladder','trachea'].map(name=>atlas.concepts.find(c=>c.name.toLowerCase()===name)).filter((x):x is Concept=>!!x);const label=(c:Concept)=>fold(structureName(c.name,lang,names));return atlas.concepts.filter(c=>label(c).includes(term)||c.name.toLowerCase().includes(term)||c.id.toLowerCase().includes(term)).sort((a,b)=>label(a).length-label(b).length).slice(0,80);},[atlas,query,lang,names]);
  const choose=(c:Concept)=>{setChosen(c);setState(s=>({...s,selected:c.elements,isolate:false,rotate:false}));setDetails(true);setPanel(null);};
  useEffect(()=>{if(!atlas)return;return registerAtlasTools(atlas,c=>flushSync(()=>choose(c)));},[atlas]);
  const choosePart=(id:string)=>{const p=parts.get(id);if(!p)return;setChosen({id:p.conceptId,name:p.name,elements:[id]});setState(s=>({...s,selected:[id],isolate:false,rotate:false}));setDetails(true);setPanel(null);};
@@ -36,7 +36,7 @@ export default function Home(){
  const reset=()=>{setState(s=>({...initial,visible:DEFAULT_VISIBLE,reset:s.reset+1}));setChosen(null);setDetails(false);setPanel(null);};
  const openPanel=(next:'layers'|'search')=>{setDetails(false);setPanel(p=>p===next?null:next);};
  return <main className="studio">
-  {atlas&&<AnatomyScene atlas={atlas} state={{...state,inspectorOpen:details&&selectedParts.length>0}} onSelect={choosePart} onProgress={n=>{setProgress(n);if(n===100)setError('');}} onError={setError}/>}
+  {atlas&&<AnatomyScene atlas={atlas} state={{...state,inspectorOpen:details&&selectedParts.length>0}} onSelect={choosePart} onProgress={n=>{setProgress(n);if(n===100)setError('');}} onError={setError} labelOf={nameOf} canvasLabel={t.canvasLabel}/>}
   <div className="vignette"/>
   <header className="identity"><div className="eyebrow"><span className="status-dot"/> {t.eyebrow}</div><h1>Human Atlas<Badge variant="outline" className="edition">3D</Badge></h1><div className="identity-meta">{atlas?atlas.parts.length.toLocaleString():'2,234'} {t.modeledPieces} <span>·</span> BodyParts3D</div></header>
   <nav className="top-actions" aria-label={t.explorerPanels}><div className="lang-switch" role="group" aria-label={t.languageGroup}>{LANGS.map(l=><Button variant="ghost" key={l} className={lang===l?'active':''} aria-pressed={lang===l} aria-label={STRINGS[l].switchTo} title={STRINGS[l].languageName} onClick={()=>setLang(l)}><Flag lang={l}/></Button>)}</div><Button variant="ghost" className="lang-toggle icon-button" aria-label={STRINGS[lang==='es'?'en':'es'].switchTo} title={t.languageName} onClick={()=>setLang(l=>l==='es'?'en':'es')}><Flag lang={lang}/></Button><Button variant="ghost" className={panel==='search'?'active':''} onClick={()=>openPanel('search')} aria-label={t.searchAnatomy}><Search size={18}/><span>{t.findStructure}</span><kbd>/</kbd></Button><Button variant="ghost" className="icon-button" aria-label={t.aboutAtlas} onClick={()=>{setDetails(false);setPanel(null);setAbout(true);}}><Info size={18}/></Button></nav>
