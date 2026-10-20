@@ -1,6 +1,6 @@
 # Human Atlas
 
-An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui, available in Spanish and English. Choose between two reference bodies: the BodyParts3D adult male, with **2,234 individually selectable meshes** and **3,432 named concepts**, and the Human Reference Atlas female, with **888 meshes** and **1,073 concepts**.
+An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui, available in Spanish and English. Choose between two reference bodies: the BodyParts3D adult male, with **2,234 individually selectable meshes** and **3,432 named concepts**, and the Human Reference Atlas female, with **964 meshes** and **1,174 concepts**.
 
 **[Explore the live demo](https://human-atlas-seven.vercel.app)**
 
@@ -40,9 +40,9 @@ Validation covers mesh buffers, names, Spanish translations, and concept members
 
 ## Anatomy data
 
-The male model is **BodyParts3D 4.0**, an adult male reference anatomy. The female model is the Human Reference Atlas **3D Reference Organ Set for Female v1.5**: the whole-body surface, selected organs, and female reproductive anatomy, with partial skeleton and muscle coverage; eight pregnancy reference pieces sit in a separate layer, hidden by default. Both are licensed **CC BY 4.0**. Neither represents every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
+The male model is **BodyParts3D 4.0**, an adult male reference anatomy. The female model combines the Human Reference Atlas **united-female v1.10** and **pelvis-female v1.3** reference organs: the whole-body surface, selected organs, the mouth and teeth, the sternum and intervertebral disks, and female reproductive anatomy, with partial skeleton and muscle coverage; eight pregnancy reference pieces sit in a separate layer, hidden by default. Both are licensed **CC BY 4.0**. Neither represents every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
 
-Geometry is simplified for browser performance while retaining every source mesh. The male model contains 2,288,268 triangles (about 33 MB of compressed geometry) and the female model 1,810,038 triangles (about 23 MB); only the selected model is downloaded. Full credits, source links, and adaptation details are in [ATTRIBUTION.md](public/ATTRIBUTION.md).
+Geometry is simplified for browser performance while retaining every source mesh. The male model contains 2,288,268 triangles (about 33 MB of compressed geometry) and the female model 2,307,090 triangles (about 30 MB); only the selected model is downloaded. Full credits, source links, and adaptation details are in [ATTRIBUTION.md](public/ATTRIBUTION.md).
 
 The male model has an optional **Extra detail** layer, off by default, adapted from [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy): 1,025 pieces that BodyParts3D lacks (lymph nodes, ligaments and joint tissue, bursae and tendon sheaths, peripheral nerves, facial, masticatory and abdominal muscles, salivary glands), fitted to the BodyParts3D skeleton, with 423,181 triangles and about 5.5 MB compressed. Those files (`atlas-zanatomy.json`, `zanatomy-*.bin`) are licensed **CC BY-SA 4.0**, so adaptations of them must keep that license.
 
@@ -56,7 +56,7 @@ The optional WebMCP tools expose anatomy search and inspection in compatible bro
 
 ## Rebuilding geometry
 
-The repository includes browser-ready geometry. Rebuilding it is optional: obtain the official BodyParts3D OBJ archive and English metadata tables, prepare the joined concepts and display-system mappings, run `scripts/convert-anatomy.py`, then `node scripts/optimize-anatomy.mjs` and `node scripts/compress-models.mjs`. For the female model, run `scripts/convert-female.py`, then `node scripts/optimize-anatomy.mjs atlas-female.json`. For the Z-Anatomy layer, run `scripts/convert-zanatomy.py Startup.blend TA2.csv` (both from the Z-Anatomy repository; no Blender needed), then `node scripts/optimize-anatomy.mjs atlas-zanatomy.json`, `node scripts/compress-models.mjs atlas-zanatomy.json` and `node scripts/validate-atlas.mjs atlas-zanatomy.json`. Simplification uses a 0.2% relative error limit per structure.
+The repository includes browser-ready geometry. Rebuilding it is optional: obtain the official BodyParts3D OBJ archive and English metadata tables, prepare the joined concepts and display-system mappings, run `scripts/convert-anatomy.py`, then `node scripts/optimize-anatomy.mjs` and `node scripts/compress-models.mjs`. For the female model, download the united-female v1.10 and pelvis-female v1.3 GLBs, run `python3 scripts/convert-female.py scripts/female-parts.json UNITED.glb PELVIS.glb`, then `node scripts/optimize-anatomy.mjs atlas-female.json` and `node scripts/compress-models.mjs atlas-female.json`. `scripts/female-parts.json` holds the curated display name, system and ontology id of every female mesh. For the Z-Anatomy layer, run `scripts/convert-zanatomy.py Startup.blend TA2.csv` (both from the Z-Anatomy repository; no Blender needed), then `node scripts/optimize-anatomy.mjs atlas-zanatomy.json`, `node scripts/compress-models.mjs atlas-zanatomy.json` and `node scripts/validate-atlas.mjs atlas-zanatomy.json`. Simplification uses a 0.2% relative error limit per structure.
 
 ## Deploy
 

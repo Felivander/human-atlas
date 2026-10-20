@@ -17,14 +17,16 @@ BodyParts3D represents an adult male reference anatomy based on TARO MRI and ana
 
 ## Female reference anatomy
 
-Kristen Browne and Heidi Schlehlein, Human Reference Atlas / HuBMAP, *3D Reference Organ Set for Female v1.5* (2023). CC BY 4.0. Geometry adapted for this viewer.
+Kristen Browne and Heidi Schlehlein, Human Reference Atlas / HuBMAP, 3D reference organs *united-female* v1.10 (2026) and *pelvis-female* v1.3. CC BY 4.0. Geometry adapted for this viewer.
 
-- Source DOI: https://doi.org/10.48539/HBM352.BTSQ.586
-- Dataset: https://lod.humanatlas.io/ref-organ/united-female/v1.5
-- Original GLB: https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.5/assets/3d-vh-f-united.glb
+- united-female v1.10: https://doi.org/10.48539/HBM637.DWBM.744 · https://lod.humanatlas.io/ref-organ/united-female/v1.10
+- Original GLB: https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.10/assets/3d-vh-f-united.glb
+- pelvis-female v1.3: https://doi.org/10.48539/HBM853.VCFM.778 · https://lod.humanatlas.io/ref-organ/pelvis-female/v1.3
+- Original GLB: https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb
+- Earlier releases of this viewer used united-female v1.5: https://doi.org/10.48539/HBM352.BTSQ.586
 - License: https://creativecommons.org/licenses/by/4.0/
 
-Adaptations: translated native meter/Y-up coordinates onto the stage, coincident vertices welded and source normals averaged, geometry simplified with a 0.2% per-structure relative error bound, and normals quantized. Colors and display systems are curated for this interface. All 888 source meshes are represented, with 1,073 source nodes available as selectable individual or compound concepts.
+Adaptations: applied the source node transforms (v1.10 rotates and scales the skin), translated native meter/Y-up coordinates onto the stage, coincident vertices welded and source normals averaged, geometry simplified with a 0.2% per-structure relative error bound, and normals quantized. Colors and display systems are curated for this interface. All 956 united-female meshes are represented; the 8 pubis and ischium meshes that v1.10 omits come from pelvis-female v1.3, which shares the same coordinate space. 1,174 source nodes are available as selectable individual or compound concepts. Display names, systems and ontology ids per mesh are in scripts/female-parts.json.
 
 This is a reference assembly with whole-body surface and selected organs, including female reproductive anatomy. Its skeleton and muscle coverage is partial. It is not a complete model of every human structure or a single-person scan. Eight placenta/umbilical structures are classified under Pregnancy reference and hidden by default.
 
